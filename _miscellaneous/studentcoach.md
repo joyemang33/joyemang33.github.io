@@ -5,4 +5,4 @@ place: Shenzhen, China
 inline: true
 ---
 
-`Leading student coach` of CUHK-Shenzhen's Programming Contest Team.
+`Student coach` of CUHK-Shenzhen's Programming Contest Team.

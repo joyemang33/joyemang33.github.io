@@ -1,7 +1,7 @@
 ---
 layout: post
 sem: 2023
-place: Macau, China
+place: Nanjing, China
 inline: true
 ---
 

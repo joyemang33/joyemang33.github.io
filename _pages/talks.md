@@ -1,32 +1,32 @@
 ---
 layout: page
-permalink: /miscellaneous/
-title: Miscellaneous
+permalink: /talks/
+title: Talks
 description: 
 nav: true
 nav_order: 4
 ---
 
 
-<!-- pages/awards.md -->
-<div class="miscellaneous">
-{% if site.awards != blank -%} 
+<!-- pages/talks.md -->
+<div class="talks">
+{% if site.talks != blank -%} 
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
-    {%- assign miscellaneous = site.miscellaneous | reverse -%} 
-    {% for item in miscellaneous %} 
+    {%- assign talks = site.talks | reverse -%} 
+    {% for item in talks %} 
     <tr>
-        <th scope="row">{{ item.sem }}</th>
+        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
         <td>
         {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
         {%- else -%} 
-            <a class="miscellaneous-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="talks-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {%- endif %} 
         </td>
         <td>
         {% if item.place -%} 
-            <span class="miscellaneous-place">{{ item.place }}</span>
+            <span class="talks-place">{{ item.place }}</span>
         {%- endif %}
         </td>
     </tr>
@@ -34,6 +34,6 @@ nav_order: 4
     </table>
 </div>
 {%- else -%} 
-<p>No miscellaneous so far...</p>
+<p>No talks so far...</p>
 {%- endif %} 
 </div>

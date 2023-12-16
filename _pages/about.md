@@ -24,7 +24,7 @@ I am Qiuyang Mang (忙秋阳 in Chinese), a third-year undergraduate at The Chin
 My focus lies in AI Robustness (*e.g.,* developing automated tools for testing and improving AI software),  testing traditional systems (*e.g.,* databases and compilers), and graph algorithms. More recently, I have been focusing on testing Graph Database Management Systems (*e.g.,* Neo4j) and Graph Algorithm Libraries (*e.g.,* NetworkX). Our work has successfully detected more than 50 bugs in these systems. 
 
 
-I am highly involved with Competitive Programming, and in the 46th ICPC World Final List (Egypt 2023). Prior to this, I earned a second runner-up and a third-place position at ICPC Regionals, representing The Chinese University of Hong Kong, Shenzhen.
+I am highly involved with Competitive Programming, and in the 46th ICPC World Final List (Egypt 2023). Prior to this, I earned a first runner-up and a second runner-up at ICPC Regionals, representing The Chinese University of Hong Kong, Shenzhen.
 
 
 

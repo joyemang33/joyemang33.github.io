@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-`I am currently seeking for Phd positions, and I want to combine interesting algorithms with practical applications.  If you are interested in me, please feel free to contact me!`
+**I am currently seeking for Phd positions, and I want to combine interesting algorithms with practical applications.  If you are interested in me, please feel free to contact me!** 😀😀😀
 
 I am Qiuyang Mang (忙秋阳 in Chinese), a third-year undergraduate at The Chinese University of Hong Kong, Shenzhen, under the guidance of Prof. [Pinjia He](https://pinjiahe.github.io/). I am currently interning at [Trustworthy Engineering of Software Technologies (TEST) Lab](https://nus-test.github.io/), advised by Prof. [Manuel Rigger](https://www.manuelrigger.at/). 
 

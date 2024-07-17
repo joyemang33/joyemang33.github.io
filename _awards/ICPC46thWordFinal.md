@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-8-2
-place: Sharmel-Sheikh, Egypt
+place: Luxor, Egypt
 inline: true
 ---
 

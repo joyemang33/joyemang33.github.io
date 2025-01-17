@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-Our paper `"Finding Functional Bugs in Spatial Data Engines"` was accepted by `SIGMOD2025`.
+Our paper *Finding Functional Bugs in Spatial Data Engines* was accepted by *SIGMOD2025*.

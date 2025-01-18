@@ -9,7 +9,7 @@ nav_order: 4
 
 
 <!-- pages/talks.md -->
-<head>
+<div class="talks">
   <style>
     table.table-borderless {
       border: none !important;
@@ -20,8 +20,7 @@ nav_order: 4
       padding: 0.2rem !important;
     }
   </style>
-</head>
-<div class="talks">
+
 {% if site.talks != blank -%} 
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
@@ -42,7 +41,7 @@ nav_order: 4
         <td>
         {% if item.place -%} 
             <span class="talks-place">{{ item.place }}</span>
-        {%- endif %}
+        {%- endif %} 
         </td>
     </tr>
     {%- endfor %} 

@@ -9,6 +9,18 @@ nav_order: 4
 
 
 <!-- pages/talks.md -->
+<head>
+  <style>
+    table.table-borderless {
+      border: none !important;
+    }
+
+    table.table-sm {
+      font-size: 12px !important;
+      padding: 0.2rem !important;
+    }
+  </style>
+</head>
 <div class="talks">
 {% if site.talks != blank -%} 
 <div class="table-responsive">

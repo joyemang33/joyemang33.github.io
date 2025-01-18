@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2023-12-29
-place: Hangzhou, China
+date: 2024-1-16
+place: Online
 inline: true
 ---
-Visiting [NebulaGraph](https://www.nebula-graph.io/): *Testing Graph Database Systems via Equivalent Query Rewriting*
-
+Invited talk to [TEST Lab](https://nus-test.github.io/event/231002/), National University of Singapore: ***Testing Graph Database Systems via Equivalent Query Rewriting***

@@ -19,6 +19,9 @@ nav_order: 4
       font-size: 12px !important;
       padding: 0.2rem !important;
     }
+  	th {
+    	font-weight: normal !important;
+  	}
   </style>
 
 {% if site.talks != blank -%} 

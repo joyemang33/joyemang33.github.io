@@ -26,6 +26,9 @@ nav_order: 4
     	width: 72px;  /* 自动适应内容宽度 */
     	white-space: nowrap !important; /* 禁止换行 */
   	}
+  	th[scope="row"], td:last-child {
+    	padding-left: 5px;  /* 向右移动 10px */
+  	}
   </style>
 
 {% if site.talks != blank -%} 

@@ -23,7 +23,7 @@ nav_order: 4
     	font-weight: normal !important;
   	}
   	th[scope="row"], td:first-child {
-    	width: 65px;  /* 自动适应内容宽度 */
+    	width: 80px;  /* 自动适应内容宽度 */
     	white-space: nowrap !important; /* 禁止换行 */
   	}
   </style>

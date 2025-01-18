@@ -17,8 +17,8 @@ nav_order: 4
     {% for item in talks %} 
     <tr>
         <th scope="row">  
-        	{{ item.date | date: "%b" }}<br>
-  			{{ item.date | date: "%-d, %Y" }}
+        	{{ item.date | date: "%b %-d," }}<br>
+  			{{ item.date | date: "%Y" }}
         </th>
         <td>
         {% if item.inline -%} 

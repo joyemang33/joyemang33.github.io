@@ -7,8 +7,9 @@ nav: true
 nav_order: 5
 ---
 
-### Teaching at CUHK-Shenzhen
-
+---
+### Teaching @ CUHK-Shenzhen
+<br>
 
 - **AY2024/2025 Semester 2 (ongoing):** CSC4001 Software Engineering - Undergraduate Student Teaching Fellow
 
@@ -21,6 +22,8 @@ nav_order: 5
 ---
 
 ### Service
+
+<br>
 
 - **Artifact Evaluation Committee:** PLDI'2024
 

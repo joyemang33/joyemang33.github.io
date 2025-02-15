@@ -24,6 +24,6 @@ nav_order: 5
 
 - **Artifact Evaluation Committee:** PLDI'2024
 
-- **Reviewer:** KDD'2024
+- **Reviewer:** KDD'2024, KDD'2025
 
 - **External Reviewer:** OSDI'2023 Artifact Evaluation

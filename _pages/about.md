@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 
 profile:
-  align: left
+  align: right
   image: profile6.jpg
   image_circular: false # crops the image to make it circular
   address: >
@@ -17,6 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 Hi, I’m Qiuyang Mang, an incoming Computer Science PhD student at *UC Berkeley* (Fall 2025), where I’ll be joining [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/)’s group. Prior to this, I completed my undergraduate studies at *The Chinese University of Hong Kong, Shenzhen,* under the guidance of [Prof. Pinjia He](https://pinjiahe.github.io/), and spent an unforgettable year as a research assistant at *National University of Singapore* with [Prof. Manuel Rigger](https://www.manuelrigger.at/).
+
+
+
+
 
 
 My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:

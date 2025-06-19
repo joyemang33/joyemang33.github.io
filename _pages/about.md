@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 
 profile:
-  align: right
+  align: left
   image: profile6.jpg
   image_circular: false # crops the image to make it circular
   address: >
@@ -21,20 +21,22 @@ Hi, I’m Qiuyang Mang, an incoming Computer Science PhD student at *UC Berkeley
 
 My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:
 
-- *Database Testing and Verification*
+- **Database Testing and Verification**
    I aim to develop the next generation of *automated database validation techniques*, combining *LLMs* with *post-verification*, toward generating effective, fully automated test cases for database systems.
    
-- *Large Language Model for Database*
+- **Large Language Model for Database**
 
    I'm exploring how to *train LLMs/LRMs using database execution feedback*, enabling them to understand the internal behavior of database engines and ultimately support *complex query optimizations* and *rule discovery*.
 
-- *From Competitive Programming to Research*
+- **From Competitive Programming to Research**
 
-   I'm always interested in how techniques from *competitive programming* can translate into solving practical problems, especially in data-centric systems. I participated in the *46th ICPC World Finals*, and as both a contestant and a *problem setter* for several regional-level contests, I’m also interested in *integrating competitive programming expertise into LLMs/LRMs*. 
+   I'm always interested in how techniques from *competitive programming* can translate into solving practical problems, especially in data-centric systems. I’m also interested in *integrating competitive programming expertise into LLMs/LRMs*. 
+   
+
+I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
 
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- Besides my research, I enjoy problem setting and solving in ICPC, basketball, and cooking. I also have a beautiful ragdoll cat.
-
-- I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
+- I participated in the 46th International Collegiate Programming Contest,  World Finals, and served as problem setters for several ICPC regionals..
+- Besides my research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.

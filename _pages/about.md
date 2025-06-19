@@ -16,9 +16,25 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Hi, I’m Qiuyang Mang, an incoming Computer Science PhD student at *UC Berkeley* (Fall 2025), where I’ll be joining [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/)’s group. Prior to this, I completed my undergraduate studies at *The Chinese University of Hong Kong, Shenzhen,* under the guidance of [Prof. Pinjia He](https://pinjiahe.github.io/), and spent an unforgettable year as a research assistant at *National University of Singapore* with [Prof. Manuel Rigger](https://www.manuelrigger.at/).
 
-I am Qiuyang Mang (*忙秋阳 in Chinese which is pronounced like "Chew-yahng Mahng"*), an incoming Computer Science PhD student in [EECS](https://eecs.berkeley.edu/) at UC Berkeley (2025 Fall).
 
-I am currently a final-year undergraduate at The Chinese University of Hong Kong, Shenzhen (*CUHK-Shenzhen*), advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I interned at the National University of Singapore, advised by [Prof. Manuel Rigger](https://www.manuelrigger.at/), where I spent an unforgettable year. Overall, my research focus broadly lies in the intersection of Software Engineering [[ESEC/FSE'23](https://arxiv.org/pdf/2308.07937), [ICSE'24](https://joyemang33.github.io/assets/pdf/GRev.pdf)] and Data-centric Systems [[KDD'24](https://arxiv.org/pdf/2402.05006), [SIGMOD'25-A](https://dl.acm.org/doi/pdf/10.1145/3698810), SIGMOD'25-B, [VLDB'25](https://arxiv.org/pdf/2406.00344)]. 
+My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:
 
-In addition to my research, I am actively involved in Competitive Programming, especially for [ICPC](https://icpc.global/). I participated in *the 46th ICPC World Finals in Luxor, Egypt*. Before this, I earned several top 3 places 🏆 at ICPC regional contests. I have also served as a jury member and problem setter for several ICPC contests. Apart from my studies, I enjoy cooking, especially dishes from my hometown (*Shanghainese cuisine*). It’s a great way for me to relax and connect with my culture. I also have a sweet ragdoll cat named *Peppa*.
+- *Database Testing and Verification*
+   I aim to develop the next generation of *automated database validation techniques*, combining *LLMs* with *post-verification*, toward generating effective, fully automated test cases for database systems.
+   
+- *Large Language Model for Database*
+
+   I'm exploring how to *train LLMs/LRMs using database execution feedback*, enabling them to understand the internal behavior of database engines and ultimately support *complex query optimizations* and *rule discovery*.
+
+- *From Competitive Programming to Research*
+
+   I'm always interested in how techniques from *competitive programming* can translate into solving practical problems, especially in data-centric systems. I participated in the *46th ICPC World Finals*, and as both a contestant and a *problem setter* for several regional-level contests, I’m also interested in *integrating competitive programming expertise into LLMs/LRMs*. 
+
+### Miscellaneous
+
+- 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
+- Besides my research, I enjoy problem setting and solving in ICPC, basketball, and cooking. I also have a beautiful ragdoll cat.
+
+- I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).

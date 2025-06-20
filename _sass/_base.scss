@@ -127,6 +127,20 @@ blockquote {
       margin: 0;
     }
   }
+
+  .social {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    a {
+      color: var(--global-text-color);
+      font-size: 1.2rem;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
 }
 
 .profile.float-right {

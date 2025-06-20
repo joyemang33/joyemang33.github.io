@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 <style>
 * {
-  font-family: 'Roboto';
+  font-family: sans-serif;
 }
 </style>
 

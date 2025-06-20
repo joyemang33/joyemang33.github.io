@@ -34,5 +34,5 @@ I understand how deeply research success depends on access and opportunity, and 
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- I participated in the 46th ICPC World Finals and served as problem setters for several ICPC regionals.
+- I participated in the 46th ICPC World Finals and served as a problem setter for several ICPC regionals.
 - Besides my research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.

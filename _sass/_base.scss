@@ -131,10 +131,10 @@ blockquote {
   .social {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 3rem;
 
     a {
       color: var(--global-text-color);
-      font-size: 3rem;
 
       &:hover {
         color: var(--global-theme-color);
@@ -175,6 +175,10 @@ blockquote {
       text-decoration: none;
     }
   }
+}
+
+.post.clearfix {
+  margin-right: 270px; /* Leave space for profile */
 }
 
 

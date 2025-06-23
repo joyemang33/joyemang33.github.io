@@ -120,6 +120,14 @@ blockquote {
 .profile {
   width: 60%;
 
+  .caption {
+    font-size: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
   .address {
     margin-bottom: 5px;
     margin-top: 5px;

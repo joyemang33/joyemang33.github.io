@@ -38,6 +38,7 @@ layout: default
             {% else %}
               {%- assign second_image_class = "img-fluid z-depth-1 rounded" -%}
             {% endif %}
+            {% include figure.html path=second_image_path class=second_image_class alt=page.profile.second_image cache_bust=true -%}
           {%- endif %}
       </div>
     {%- endif %}

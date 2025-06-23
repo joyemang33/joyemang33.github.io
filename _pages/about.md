@@ -8,6 +8,7 @@ profile:
   align: right
   image: profile7.jpg
   second_image: cat.jpg
+  second_image_caption: My cute cat
   image_circular: false # crops the image to make it circular
   address: >
 

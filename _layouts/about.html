@@ -31,6 +31,13 @@ layout: default
             {% include social.html %}
           </div>
         {%- endif %}
+          {%- if page.profile.second_image %}
+            {%- assign second_image_path = page.profile.second_image | prepend: 'assets/img/' -%}
+            {% if page.profile.second_image_circular %}
+              {%- assign second_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+            {% else %}
+              {%- assign second_image_class = "img-fluid z-depth-1 rounded" -%}
+            {% endif %}
       </div>
     {%- endif %}
 

@@ -22,7 +22,7 @@ nav_order: 5
 
 ### Service
 
-- **Artifact Evaluation Committee:** PLDI' 2024
+- **Artifact Evaluation Committee:** PLDI' 2024, SIGMOD' 25
 
 - **Reviewer:** KDD' 2024, KDD' 2025
 

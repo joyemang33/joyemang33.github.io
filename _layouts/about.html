@@ -20,6 +20,11 @@ layout: default
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
           {% endif %}
           {% include figure.html path=profile_image_path class=profile_image_class alt=page.profile.image cache_bust=true -%}
+          {%- if page.profile.image_caption %}
+            <div class="caption">
+              {{ page.profile.image_caption }}
+            </div>
+          {%- endif %}
         {% endif -%}
         {%- if page.profile.address %}
           <div class="address">

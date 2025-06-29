@@ -7,6 +7,7 @@ subtitle:
 profile:
   align: right
   image: profile7.jpg
+  image_caption: Photo credit: Hangrui Zhou @ Berlin
   second_image: cat.jpg
   second_image_caption: My cute cat -- Peppa
   image_circular: false # crops the image to make it circular

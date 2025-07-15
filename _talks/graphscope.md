@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-07-14
+date: 2025-7-14
 place: Hangzhou, China
 inline: true
 ---

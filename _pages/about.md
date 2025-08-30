@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 }
 </style>
 
-Hi, I'm Qiuyang Mang, an incoming Computer Science PhD student at *UC Berkeley* (Fall 2025), where I'll be joining [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/)'s group. Prior to this, I completed my undergraduate studies at *The Chinese University of Hong Kong, Shenzhen,* under the guidance of [Prof. Pinjia He](https://pinjiahe.github.io/), and spent an unforgettable year as a research assistant at *National University of Singapore* with [Prof. Manuel Rigger](https://www.manuelrigger.at/).
+Hi, I'm Qiuyang Mang, a first year Computer Science PhD student at *UC Berkeley* advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) at [SkyLab](https://sky.cs.berkeley.edu/). Prior to this, I received B.E. at *The Chinese University of Hong Kong, Shenzhen,* advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at *National University of Singapore* with [Prof. Manuel Rigger](https://www.manuelrigger.at/).
 
 
 My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:

@@ -31,7 +31,7 @@ Hi, I'm Qiuyang Mang, a first year CS PhD student at advised by [Prof. Alvin Che
 
 My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:
 
-- **Database Testing and Verification**: I aim to develop the next generation of *automated database validation techniques*, combining *LLMs* with *post-verification*, toward generating effective, fully automated test cases for database systems.
+- **Database Testing and Verification**: I aim to develop the next generation of *automated database validation techniques*, combining *LLMs* with *post-verification*, toward generating effective, fully automated test cases for database systems ([[Argus](https://arxiv.org/abs/2510.06663)]).
 - **Large Language Model for Database**: I'm exploring how to *train LLMs/LRMs using database execution feedback*, enabling them to understand the internal behavior of database engines and ultimately support *complex query optimizations* and *rule discovery*.
 - **From Competitive Programming to Research**: I'm always interested in how techniques from *competitive programming* can translate into solving practical problems, especially in data-centric systems. I'm also interested in *integrating competitive programming expertise into LLMs/LRMs*. 
 

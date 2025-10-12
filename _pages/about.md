@@ -37,6 +37,17 @@ My research interests lie in *Data Management*, *Software Engineering*, and *Alg
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
 
+### Mantees
+
+Current:
+- Runyuan He (CUHK-Shenzhen UG, Berkeley Visiting, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
+- Zirong Zeng (CUHK-Shenzhen UG, Berkeley Visiting, ICPC World Finalist, NOI Silver)
+- Frank (Yufan) Xiang (UW-Madison UG, NOI Silver)
+- Alexander Du (Berkeley UG, USACO Platinum)
+- Wesley Zheng (Berkeley UG), co-advised by [Huanzhi Mao](https://huanzhimao.com/)
+
+
+
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".

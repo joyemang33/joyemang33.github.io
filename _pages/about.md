@@ -39,7 +39,6 @@ I understand how deeply research success depends on access and opportunity, and 
 
 ### Mantees
 
-Current:
 - Runyuan He (CUHK-Shenzhen UG, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
 - Zirong Zeng (CUHK-Shenzhen UG, ICPC World Finalist, NOI Silver)
 - Frank (Yufan) Xiang (UW-Madison UG, NOI Silver)

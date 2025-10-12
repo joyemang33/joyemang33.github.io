@@ -37,7 +37,7 @@ My research interests lie in *Data Management*, *Software Engineering*, and *Alg
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
 
-### Mantees
+### Mentees
 
 - Runyuan He (CUHK-Shenzhen UG, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
 - Zirong Zeng (CUHK-Shenzhen UG, ICPC World Finalist, NOI Silver)

@@ -39,11 +39,11 @@ I understand how deeply research success depends on access and opportunity, and 
 
 ### Mentees
 
-- Wesley Zheng (Berkeley UG'26), co-advised by [Huanzhi Mao](https://huanzhimao.com/)
+- [Wesley Zheng](https://www.linkedin.com/in/wesley-zheng-cal/) (Berkeley UG'26), co-advised by [Huanzhi Mao](https://huanzhimao.com/)
 - Zirong Zeng (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)
 - Runyuan He (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
 - Frank (Yufan) Xiang (UW-Madison UG'27, NOI Silver, USACO Platinum (Full Score))
-- Alexander Du (Berkeley UG'28, USACO Platinum)
+- [Alexander Du](https://www.linkedin.com/in/alexander-du-0268642a4/) (Berkeley UG'28, USACO Platinum)
 
 
 

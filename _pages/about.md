@@ -37,12 +37,12 @@ My research interests lie in *Data Management*, *Software Engineering*, and *Alg
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students—and remarkable people in general—never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
 
-### Mentees
+### Mentees (in Alvin's group)
 
 - [Wesley Zheng](https://www.linkedin.com/in/wesley-zheng-cal/) (Berkeley UG'26), co-advised by [Huanzhi Mao](https://huanzhimao.com/)
-- Zirong Zeng (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)
-- Runyuan He (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
-- Frank (Yufan) Xiang (UW-Madison UG'27, NOI Silver, USACO Platinum (Full Score))
+- [Zirong Zeng](https://github.com/zengzirong) (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)
+- [Runyuan He](https://github.com/momoway) (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by [Hanchen Li](https://hanchenli.github.io/)
+- [Frank (Yufan) Xiang](https://github.com/DMoRanSky) (UW-Madison UG'27, NOI Silver, USACO Platinum)
 - [Alexander Du](https://www.linkedin.com/in/alexander-du-0268642a4/) (Berkeley UG'28, USACO Platinum)
 
 

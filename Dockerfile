@@ -16,6 +16,8 @@ ENV LC_ALL en_US.UTF-8
 # add ruby and jekyll
 RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y
 RUN apt-get install imagemagick -y
+# add dependencies for mini_racer gem
+RUN apt-get install -y wget git libgmp-dev
 
 # install python3 and jupyter
 RUN apt-get install python3-pip -y

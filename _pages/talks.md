@@ -11,23 +11,65 @@ nav_order: 4
 <!-- pages/talks.md -->
 <div class="talks">
   <style>
-    table.table-borderless {
+    .talks * {
+      font-family: 'Merriweather', Georgia, serif;
+    }
+  
+    .talks table.table-borderless {
       border: none !important;
     }
 
-    table.table-sm {
-      font-size: 12px !important;
-      padding: 0.2rem !important;
+    .talks table.table-sm {
+      font-size: 0.95rem !important;
     }
-  	th {
-    	font-weight: normal !important;
+    
+    .talks table tr {
+      border-bottom: 1px solid var(--global-divider-color);
+      transition: background-color 0.2s ease;
+    }
+    
+    .talks table tr:last-child {
+      border-bottom: none;
+    }
+    
+    .talks table tr:hover {
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+    
+  	.talks th {
+    	font-weight: 600 !important;
+    	color: var(--global-theme-color);
+    	vertical-align: top;
+    	padding: 1rem 0.5rem !important;
   	}
-  	th[scope="row"], td:first-child {
-    	width: 72px;  /* 自动适应内容宽度 */
-    	white-space: nowrap !important; /* 禁止换行 */
+  	
+  	.talks td {
+  	  vertical-align: top;
+  	  padding: 1rem 0.5rem !important;
   	}
-  	th[scope="row"], td:last-child {
-    	padding-left: 5px;  /* 向右移动 10px */
+  	
+  	.talks th[scope="row"], .talks td:first-child {
+    	width: 80px;
+    	white-space: nowrap !important;
+    	font-size: 0.9rem;
+  	}
+  	
+  	.talks-title {
+  	  font-weight: 600;
+  	  font-size: 1.05rem;
+  	  color: var(--global-text-color) !important;
+  	  text-decoration: none !important;
+  	}
+  	
+  	.talks-title:hover {
+  	  color: var(--global-theme-color) !important;
+  	}
+  	
+  	.talks-place {
+  	  color: var(--global-text-color-light);
+  	  font-size: 0.9rem;
+  	  font-size: 0.85rem;
+  	  white-space: nowrap;
   	}
   </style>
 

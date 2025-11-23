@@ -7,11 +7,26 @@ subtitle:
 profile:
   align: right
   image: profile7.jpg
-  image_caption: Photo credit -- Hangrui Zhou @ Berlin
+  image_caption: Photo credit &mdash; Hangrui Zhou @ Berlin
   second_image: cat.jpg
-  second_image_caption: My cute cat -- Peppa
+  second_image_caption: My cute cat &mdash; Peppa
   image_circular: false # crops the image to make it circular
   address: >
+  more_info: >
+    <details class="teaching-service-sidebar">
+      <summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>
+      <div class="teaching-service">
+        <h4>CUHK-Shenzhen</h4>
+        <p><strong>2025 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering</p>
+        <p><strong>2024 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering<br>
+        🏆 <em>2023-2024 Excellent USTF Award First Class</em></p>
+        <p><strong>2021&ndash;2025:</strong> Co-coach of Competitive Programming</p>
+        <h4>Service</h4>
+        <p><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</p>
+        <p><strong>Reviewer:</strong> KDD' 2024, KDD' 2025</p>
+        <p><strong>External Reviewer:</strong> OSDI' 2023 Artifact Evaluation</p>
+      </div>
+    </details>
 
 
 news: false  # includes a list of news items
@@ -21,6 +36,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
+/* Ensure body text uses Open Sans */
+.post article p,
+.post article li,
+.post article div {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
 /* Keep content on the left side, never wrap under the right-aligned profile */
 .post article .clearfix {
   max-width: calc(100% - 380px); /* Adjust based on your profile width */
@@ -79,16 +101,25 @@ social: true # includes social icons at the bottom of the page
 .post article li {
   margin-bottom: 0.8rem;
 }
+
+/* Ensure bold text works in lists */
+.post article li strong,
+.post article li b {
+  font-weight: 600 !important;
+}
 </style>
 
-Hi, I'm Qiuyang Mang, a first year CS PhD student at advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) at UC Berkeley at [SkyLab](https://sky.cs.berkeley.edu/). Prior to this, I received B.E. at *The Chinese University of Hong Kong, Shenzhen,* advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at *National University of Singapore* with [Prof. Manuel Rigger](https://www.manuelrigger.at/).
 
+Hi, I'm Qiuyang Mang, a first year CS PhD student advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) at UC Berkeley at [Sky Computing Lab](https://sky.cs.berkeley.edu/). My current research interests lie in general topics in AI ✕	Systems, especially for Database Management Systems (DBMS) and Algorithm Evolve framework:
 
-My research interests lie in *Data Management*, *Software Engineering*, and *Algorithms*, with a focus on:
+- **LLM for DBMS**: Leveraging LLMs to power, optimize, and robustify DBMS, as well as combining post-verification as a guess-and-check framework to ensure correctness and reliability.<a href="https://arxiv.org/abs/2510.06663" target="_blank" class="paper-link">📄 Argus</a>
 
-- **Database Testing and Verification**: I aim to develop the next generation of *automated database validation techniques*, combining *LLMs* with *post-verification*, toward generating effective, fully automated test cases for database systems.<a href="https://arxiv.org/abs/2510.06663" target="_blank" class="paper-link">📄 Argus</a>
-- **Large Language Model for Database**: I'm exploring how to *train LLMs/LRMs using database execution feedback*, enabling them to understand the internal behavior of database engines and ultimately support *complex query optimizations* and *rule discovery*.
-- **From Competitive Programming to Research**: I'm always interested in how techniques from *competitive programming* can translate into solving practical problems, especially in data-centric systems. I'm also interested in *integrating competitive programming expertise into LLMs/LRMs*. 
+- **Automated Algorithm Design**: Toward building LLMs that can evolve and optimize algorithms for very difficult CS problems, especially for competitive programming.
+
+- **System for LLM**: I'm interested in all algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.
+
+Prior to this, I received B.E. at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/), where I worked on Robustifying NLP systems and Database Systems.
+
 
 <details>
 <summary class="mentees-toggle"><strong>Mentees</strong></summary>
@@ -174,6 +205,13 @@ details[open] .mentees-toggle::before {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   color: var(--global-text-color);
+  padding-left: 0;
+}
+
+.teaching-service p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  padding-left: 1.5rem;
 }
 
 .teaching-service ul {
@@ -184,35 +222,73 @@ details[open] .mentees-toggle::before {
   margin-bottom: 0.5rem;
   line-height: 1.6;
 }
+
+/* Teaching & Service in sidebar */
+.teaching-service-sidebar {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.teaching-service-sidebar .mentees-toggle {
+  font-size: 1.1rem;
+}
+
+.teaching-service-sidebar .teaching-service h4 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.teaching-service-sidebar .teaching-service p {
+  margin-bottom: 0.6rem;
+  padding-left: 0;
+  font-size: 0.85rem;
+}
+
+/* Hide on mobile, show inline */
+@media (max-width: 768px) {
+  .teaching-service-sidebar {
+    display: none;
+  }
+  
+  #teaching-service-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  #teaching-service-mobile {
+    display: none;
+  }
+}
 </style>
 
 
-<details>
+<details markdown="1" id="teaching-service-mobile">
 <summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>
 
-<div class="teaching-service">
+<div class="teaching-service" markdown="1">
 
-<h4>CUHK-Shenzhen</h4>
+#### CUHK-Shenzhen
 
-<ul>
-<li><strong>AY2024/2025 Semester 2:</strong> CSC4001 Software Engineering - Undergraduate Student Teaching Fellow</li>
-<li><strong>AY2023/2024 Semester 2:</strong> CSC4001 Software Engineering - Undergraduate Student Teaching Fellow<br>
-🏆 <em>2023-2024 Excellent USTF Award First Class</em></li>
-<li><strong>AY2021/2022, AY2022/2023, and AY2023/2024:</strong> Co-coach of Competitive Programming</li>
-</ul>
+**2025 Spring:** Teaching Assitant of CSC4001 Software Engineering
 
-<h4>Service</h4>
+**2024 Spring:** Teaching Assitant of CSC4001 Software Engineering  
+🏆 *2023-2024 Excellent USTF Award First Class*
 
-<ul>
-<li><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</li>
-<li><strong>Reviewer:</strong> KDD' 2024, KDD' 2025</li>
-<li><strong>External Reviewer:</strong> OSDI' 2023 Artifact Evaluation</li>
-</ul>
+**2021 &ndash; 2025:** Co-coach of Competitive Programming
+
+#### Service
+
+**Artifact Evaluation Committee:** PLDI' 2024, SIGMOD' 25
+
+**Reviewer:** KDD' 2024, KDD' 2025
+
+**External Reviewer:** OSDI' 2023 Artifact Evaluation
 
 </div>
 
 </details>
-
 
 
 ### Miscellaneous

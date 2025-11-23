@@ -36,6 +36,11 @@ layout: default
             {% include social.html %}
           </div>
         {%- endif %}
+        {%- if page.profile.more_info %}
+          <div class="more-info">
+            {{ page.profile.more_info }}
+          </div>
+        {%- endif %}
           {%- if page.profile.second_image %}
             {%- assign second_image_path = page.profile.second_image | prepend: 'assets/img/' -%}
             {% if page.profile.second_image_circular %}

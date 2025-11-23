@@ -21,10 +21,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
-* {
-  font-family: sans-serif;
-}
-
 /* Keep content on the left side, never wrap under the right-aligned profile */
 .post article .clearfix {
   max-width: calc(100% - 380px); /* Adjust based on your profile width */
@@ -34,6 +30,23 @@ social: true # includes social icons at the bottom of the page
 @media (max-width: 768px) {
   .post article .clearfix {
     max-width: 100%;
+    clear: both !important;
+  }
+  
+  /* Force profile images to stack above content on mobile */
+  .profile {
+    float: none !important;
+    margin: 0 auto 2rem auto !important;
+    text-align: center !important;
+  }
+  
+  .profile img {
+    margin: 0 auto !important;
+  }
+  
+  /* Ensure content starts below images on mobile */
+  .post article {
+    clear: both;
   }
 }
 

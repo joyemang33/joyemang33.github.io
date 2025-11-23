@@ -177,20 +177,24 @@ details[open] .mentees-toggle::before {
 <details>
 <summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>
 
-<div class="teaching-service" markdown="1">
+<div class="teaching-service">
 
-#### CUHK-Shenzhen
+<h4>CUHK-Shenzhen</h4>
 
-- **AY2024/2025 Semester 2:** CSC4001 Software Engineering - Undergraduate Student Teaching Fellow
-- **AY2023/2024 Semester 2:** CSC4001 Software Engineering - Undergraduate Student Teaching Fellow  
-  🏆 *2023-2024 Excellent USTF Award First Class*
-- **AY2021/2022, AY2022/2023, and AY2023/2024:** Co-coach of Competitive Programming
+<ul>
+<li><strong>AY2024/2025 Semester 2:</strong> CSC4001 Software Engineering - Undergraduate Student Teaching Fellow</li>
+<li><strong>AY2023/2024 Semester 2:</strong> CSC4001 Software Engineering - Undergraduate Student Teaching Fellow<br>
+🏆 <em>2023-2024 Excellent USTF Award First Class</em></li>
+<li><strong>AY2021/2022, AY2022/2023, and AY2023/2024:</strong> Co-coach of Competitive Programming</li>
+</ul>
 
-#### Service
+<h4>Service</h4>
 
-- **Artifact Evaluation Committee:** PLDI' 2024, SIGMOD' 25
-- **Reviewer:** KDD' 2024, KDD' 2025
-- **External Reviewer:** OSDI' 2023 Artifact Evaluation
+<ul>
+<li><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</li>
+<li><strong>Reviewer:</strong> KDD' 2024, KDD' 2025</li>
+<li><strong>External Reviewer:</strong> OSDI' 2023 Artifact Evaluation</li>
+</ul>
 
 </div>
 

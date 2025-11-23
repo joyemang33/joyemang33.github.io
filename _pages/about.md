@@ -87,7 +87,7 @@ My research interests lie in *Data Management*, *Software Engineering*, and *Alg
   
   <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by <a href="https://hanchenli.github.io/" target="_blank">Hanchen Li</a></p>
   
-  <p><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (UW-Madison UG'27, NOI Silver, USACO Platinum)</p>
+  <p><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum)</p>
   
   <p><strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (Berkeley UG'28, USACO Platinum)</p>
 </div>

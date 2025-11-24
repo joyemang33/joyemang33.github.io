@@ -13,6 +13,7 @@ nav_order: 4
   <style>
     .talks * {
       font-family: 'Merriweather', Georgia, serif;
+      font-weight: 400;
     }
   
     .talks table.table-borderless {

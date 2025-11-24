@@ -100,7 +100,7 @@ social: true # includes social icons at the bottom of the page
 }
 
 .post article li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Ensure bold text works in lists */
@@ -118,26 +118,31 @@ My current research interests lie in general topics in AI ✕	Systems, especiall
 
 - **Automated Algorithm Design**: Toward building LLMs that can evolve and optimize algorithms for very difficult CS problems, especially for competitive programming.
 
-- **System for LLM**: I'm interested in all algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.
+- **System for LLM**: Solving algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.<a href="https://arxiv.org/pdf/2511.02230" target="_blank" class="paper-link">📑 Continuum</a>
 
-Prior to this, I received B.E. at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/), where I worked on Robustifying NLP systems and Database Systems.
+Prior to this, I received B.E. at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/), where I worked on robustifying NLP systems and Database Systems.
 
 
 <details>
-<summary class="mentees-toggle"><strong>Mentees</strong></summary>
+<summary class="mentees-toggle"><strong>Mentees & Opportunities for undergraduate collaborations</strong></summary>
+
+I'm very fortunate to work with amazing undergraduate students in Alvin's group and learn from their passion and talent: 
 
 <div class="mentees-list">
-  <p><strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (Berkeley UG'26), co-advised by <a href="https://huanzhimao.com/" target="_blank">Huanzhi Mao</a></p>
-  
-  <p><strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)</p>
-  
-  <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by <a href="https://hanchenli.github.io/" target="_blank">Hanchen Li</a></p>
-  
-  <p><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum)</p>
-  
-  <p><strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (Berkeley UG'28, USACO Platinum)</p>
+  <ul>
+    <li><strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (Berkeley UG'26), co-advised by <a href="https://huanzhimao.com/" target="_blank">Huanzhi Mao</a></li>
+    
+    <li><strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)</li>
+    
+    <li><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by <a href="https://hanchenli.github.io/" target="_blank">Hanchen Li</a></li>
+    
+    <li><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum)</li>
+    
+    <li><strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (Berkeley UG'28, USACO Platinum)</li>
+  </ul>
 </div>
 
+If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.
 </details>
 
 <style>
@@ -183,18 +188,49 @@ details[open] .mentees-toggle::before {
   margin-top: 0.5rem;
 }
 
+.mentees-list ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.mentees-list li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
 .mentees-list p {
   margin: 0.5rem 0;
   line-height: 1.6;
 }
 
 .mentees-list strong a {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   text-decoration: none;
+  font-weight: 600;
 }
 
 .mentees-list strong a:hover {
-  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.requirement-item {
+  text-decoration: underline;
+  text-decoration-color: var(--global-theme-color);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+.collaboration-info {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.collaboration-info p {
+  margin: 0.8rem 0;
+  line-height: 1.6;
 }
 
 .teaching-service {
@@ -296,7 +332,7 @@ details[open] .mentees-toggle::before {
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- I was in the 46th ICPC World Finalist and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for several ICPC regionals.
+- I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for several ICPC regionals.
 - Besides research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).

@@ -108,6 +108,10 @@ social: true # includes social icons at the bottom of the page
 .post article li b {
   font-weight: 600 !important;
 }
+
+#miscellaneous-section h3 {
+  font-size: 1.3rem;
+}
 </style>
 
 
@@ -329,6 +333,8 @@ details[open] .mentees-toggle::before {
 </details>
 
 
+<div id="miscellaneous-section" markdown="1">
+
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
@@ -336,3 +342,5 @@ details[open] .mentees-toggle::before {
 - Besides research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
+
+</div>

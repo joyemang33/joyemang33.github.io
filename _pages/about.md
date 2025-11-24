@@ -36,11 +36,11 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
-/* Ensure body text uses Open Sans */
+/* Ensure body text uses Merriweather */
 .post article p,
 .post article li,
 .post article div {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-family: 'Merriweather', Georgia, serif !important;
 }
 
 /* Keep content on the left side, never wrap under the right-aligned profile */
@@ -75,16 +75,17 @@ social: true # includes social icons at the bottom of the page
 /* Paper link styling */
 .paper-link {
   display: inline-block;
-  padding: 0.2rem 0.6rem;
+  padding: 0.15rem 0.5rem;
   margin-left: 0.3rem;
   background: rgba(138, 43, 226, 0.08);
   color: var(--global-theme-color) !important;
   text-decoration: none !important;
   border: 1px solid rgba(138, 43, 226, 0.25);
-  border-radius: 4px;
-  font-size: 0.85rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  vertical-align: middle;
 }
 
 .paper-link:hover {
@@ -110,9 +111,10 @@ social: true # includes social icons at the bottom of the page
 </style>
 
 
-Hi, I'm Qiuyang Mang, a first year CS PhD student advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) at UC Berkeley at [Sky Computing Lab](https://sky.cs.berkeley.edu/). My current research interests lie in general topics in AI ✕	Systems, especially for Database Management Systems (DBMS) and Algorithm Evolve framework:
+Hi, I’m Qiuyang Mang, a first-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
+My current research interests lie in general topics in AI ✕	Systems, especially for Database Management Systems (DBMS) and Algorithm Evolve framework:
 
-- **LLM for DBMS**: Leveraging LLMs to power, optimize, and robustify DBMS, as well as combining post-verification as a guess-and-check framework to ensure correctness and reliability.<a href="https://arxiv.org/abs/2510.06663" target="_blank" class="paper-link">📄 Argus</a>
+- **LLM for DBMS**: Leveraging LLMs to power, optimize, and robustify DBMS, as well as combining post-verification as a guess-and-check framework to ensure correctness and reliability.<a href="https://arxiv.org/pdf/2510.06663" target="_blank" class="paper-link">📑 Argus</a>
 
 - **Automated Algorithm Design**: Toward building LLMs that can evolve and optimize algorithms for very difficult CS problems, especially for competitive programming.
 
@@ -294,7 +296,7 @@ details[open] .mentees-toggle::before {
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- I participated in the 46th ICPC World Finals and served as a problem setter for several ICPC regionals.
-- Besides my research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
+- I was in the 46th ICPC World Finalist and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for several ICPC regionals.
+- Besides research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).

@@ -10,7 +10,7 @@ nav_order: 1
 
 <style>
 .post-header .post-title::after {
-  content: " (* denotes equal contribution)";
+  content: " * denotes equal contribution";
   font-size: 0.85rem;
   color: var(--global-text-color-light);
   font-style: italic;

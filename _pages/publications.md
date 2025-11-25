@@ -9,6 +9,15 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 <style>
+.post-header .post-title::after {
+  content: " (* denotes equal contribution)";
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
 .publications * {
   font-family: 'Merriweather', Georgia, serif;
 }
@@ -77,18 +86,9 @@ nav_order: 1
   border-color: rgba(138, 43, 226, 0.4);
   transform: translateY(-1px);
 }
-
-.equal-contribution-note {
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  font-style: italic;
-}
 </style>
 
 <div class="publications">
-<p class="equal-contribution-note">* denotes equal contribution</p>
 
 {%- for y in page.years %}
 

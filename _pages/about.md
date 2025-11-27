@@ -124,7 +124,7 @@ My current research interests lie in general topics in AI ✕	Systems, especiall
 
 - **System for LLM**: Solving algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.<a href="https://arxiv.org/pdf/2511.02230" target="_blank" class="paper-link">📑 Continuum</a>
 
-Prior to this, I received B.E. at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/), where I worked on robustifying NLP systems and Database Systems.
+Prior to this, I received B.E. at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), advised [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/).I worked on robustifying NLP systems and Database Systems in my undergraduate years.
 
 
 <details>

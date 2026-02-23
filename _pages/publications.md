@@ -179,7 +179,7 @@ function filterPublications(type) {
     }
   });
   
-  // Handle 2023 and 2026 sections specially
+  // Handle 2023 section specially (no first-author papers)
   const year2023Section = document.querySelector('.year-2023-section');
   if (year2023Section) {
     if (type === 'first-author') {
@@ -189,17 +189,8 @@ function filterPublications(type) {
     }
   }
   
-  const year2026Section = document.querySelector('.year-2026-section');
-  if (year2026Section) {
-    if (type === 'first-author') {
-      year2026Section.style.display = 'none';
-    } else {
-      year2026Section.style.display = '';
-    }
-  }
-  
   // Hide empty year sections for other years
-  const years = [2025, 2024, 'Manuscript'];
+  const years = [2026, 2025, 2024, 'Manuscript'];
   
   years.forEach(year => {
     // Find the year header

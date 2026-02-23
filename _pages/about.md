@@ -139,9 +139,9 @@ I'm very fortunate to work with amazing undergraduate students in Alvin's group 
     <li><strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)</li>
     
     <li><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by <a href="https://hanchenli.github.io/" target="_blank">Hanchen Li</a></li>
-    
-    <li><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum)</li>
-    
+
+    <li><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum, Internship@Citadel)</li>
+
     <li><strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (Berkeley UG'28, USACO Platinum)</li>
   </ul>
 </div>

@@ -122,7 +122,7 @@ My current research interests lie in general topics in AI ✕	Systems, especiall
 
 - **Automated Algorithm Design**: Toward building LLMs that can evolve and optimize algorithms for very difficult CS problems, especially for competitive programming.<a href="https://arxiv.org/pdf/2512.15699" target="_blank" class="paper-link">📑 Frontier-CS</a>
 
-- **System for LLM**: Solving algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.<a href="https://arxiv.org/pdf/2511.02230" target="_blank" class="paper-link">📑 Continuum</a>
+- **System for LLM**: Solving algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.<a href="https://arxiv.org/pdf/2511.02230" target="_blank" class="paper-link">📑 Continuum</a><a href="https://arxiv.org/pdf/2603.08982" target="_blank" class="paper-link">📑 SVG-EAR</a>
 
 Prior to joining Berkeley, I received my B.E. from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at the [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/). During my undergraduate years, I worked on robustifying NLP systems and Database Management Systems.
 

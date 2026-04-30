@@ -116,13 +116,11 @@ social: true # includes social icons at the bottom of the page
 
 
 Hi, I’m Qiuyang Mang, a first-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
-My current research interests lie in general topics in AI ✕	Systems, especially for Database Management Systems (DBMS) and Algorithm Evolve framework:
+I lead [FrontierCS](https://arxiv.org/abs/2512.15699), a benchmark and framework for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **LLM for DBMS**: Leveraging LLMs to power, optimize, and robustify DBMS, as well as combining post-verification as a guess-and-check framework to ensure correctness and reliability.<a href="https://arxiv.org/pdf/2510.06663" target="_blank" class="paper-link">📑 Argus</a>
+- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [FrontierCS](https://arxiv.org/abs/2512.15699), [Argus](https://arxiv.org/abs/2510.06663)
 
-- **Automated Algorithm Design**: Toward building LLMs that can evolve and optimize algorithms for very difficult CS problems, especially for competitive programming.<a href="https://arxiv.org/pdf/2512.15699" target="_blank" class="paper-link">📑 Frontier-CS</a>
-
-- **System for LLM**: Solving algorithmic problems lies in LLM inference engine, training system and agent framework, including batching, scheduling and resource management.<a href="https://arxiv.org/pdf/2511.02230" target="_blank" class="paper-link">📑 Continuum</a><a href="https://arxiv.org/pdf/2603.08982" target="_blank" class="paper-link">📑 SVG-EAR</a>
+- **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [PLOP](https://arxiv.org/abs/2604.09944), [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230)
 
 Prior to joining Berkeley, I received my B.E. from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at the [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/). During my undergraduate years, I worked on robustifying NLP systems and Database Management Systems.
 
@@ -130,20 +128,16 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 <details>
 <summary class="mentees-toggle"><strong>Mentees & Opportunities for undergraduate collaborations</strong></summary>
 
-I'm very fortunate to work with amazing undergraduate students in Alvin's group and learn from their passion and talent: 
+I'm very fortunate to work with amazing undergraduate students learn from their passion and talent: 
 
 <div class="mentees-list">
-  <ul>
-    <li><strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (Berkeley UG'26), co-advised by <a href="https://huanzhimao.com/" target="_blank">Huanzhi Mao</a></li>
-    
-    <li><strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (CUHK-Shenzhen UG'26, ICPC World Finalist, NOI Silver)</li>
-    
-    <li><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (CUHK-Shenzhen UG'27, ICPC World Finalist, NOI Silver), co-advised by <a href="https://hanchenli.github.io/" target="_blank">Hanchen Li</a></li>
+  <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong></p>
 
-    <li><strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (University of Wisconsin-Madison UG'27, NOI Silver, USACO Platinum, Internship@Citadel)</li>
-
-    <li><strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (Berkeley UG'28, USACO Platinum)</li>
-  </ul>
+  <p><strong>Past Mentees:</strong>
+  <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> → 5th-year Master @ Berkeley,
+  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong>,
+  <strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> → Citadel Security Summer 2026,
+  <strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> → Optiver Summer 2026</p>
 </div>
 
 If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.

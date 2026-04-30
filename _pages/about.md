@@ -112,6 +112,11 @@ social: true # includes social icons at the bottom of the page
 #miscellaneous-section h3 {
   font-size: 1.3rem;
 }
+
+.post article a {
+  text-decoration: underline;
+  text-decoration-color: #722F37;
+}
 </style>
 
 

@@ -7,100 +7,66 @@ nav: true
 nav_order: 4
 ---
 
-
 <!-- pages/talks.md -->
 <div class="talks">
   <style>
-    .talks * {
-      font-family: 'Merriweather', Georgia, serif;
-      font-weight: 400;
-    }
-  
-    .talks table.table-borderless {
-      border: none !important;
+    .talks {
+      width: 100%;
     }
 
-    .talks table.table-sm {
-      font-size: 0.95rem !important;
+    .talk-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      font-family: 'Merriweather', Georgia, serif;
     }
-    
-    .talks table tr {
-      border-bottom: 1px solid var(--global-divider-color);
-      transition: background-color 0.2s ease;
+
+    .talk-item {
+      margin-bottom: 1.25rem;
     }
-    
-    .talks table tr:last-child {
-      border-bottom: none;
+
+    .talk-content {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--global-text-color);
     }
-    
-    .talks table tr:hover {
-      background-color: rgba(0, 0, 0, 0.02);
+
+    .talk-content a {
+      color: var(--global-text-color);
+      text-decoration: none;
     }
-    
-  	.talks th {
-    	font-weight: 600 !important;
-    	color: var(--global-theme-color);
-    	vertical-align: top;
-    	padding: 1rem 0.5rem !important;
-  	}
-  	
-  	.talks td {
-  	  vertical-align: top;
-  	  padding: 1rem 0.5rem !important;
-  	}
-  	
-  	.talks th[scope="row"], .talks td:first-child {
-    	width: 80px;
-    	white-space: nowrap !important;
-    	font-size: 0.9rem;
-  	}
-  	
-  	.talks-title {
-  	  font-weight: 600;
-  	  font-size: 1.05rem;
-  	  color: var(--global-text-color) !important;
-  	  text-decoration: none !important;
-  	}
-  	
-  	.talks-title:hover {
-  	  color: var(--global-theme-color) !important;
-  	}
-  	
-  	.talks-place {
-  	  color: var(--global-text-color-light);
-  	  font-size: 0.9rem;
-  	  font-size: 0.85rem;
-  	  white-space: nowrap;
-  	}
+
+    .talk-content a:hover {
+      color: var(--global-text-color-light);
+    }
+
+    .talk-meta {
+      font-size: 0.83rem;
+      color: var(--global-text-color-light);
+      margin-top: 0.1rem;
+    }
   </style>
 
-{% if site.talks != blank -%} 
-<div class="table-responsive">
-    <table class="table table-sm table-borderless">
-    {%- assign talks = site.talks | reverse -%} 
-    {% for item in talks %} 
-    <tr>
-        <th scope="row">  
-        	{{ item.date | date: "%b %-d," }}<br>
-  			{{ item.date | date: "%Y" }}
-        </th>
-        <td>
-        {% if item.inline -%} 
-            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-        {%- else -%} 
-            <a class="talks-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {%- endif %} 
-        </td>
-        <td>
-        {% if item.place -%} 
-            <span class="talks-place">{{ item.place }}</span>
-        {%- endif %} 
-        </td>
-    </tr>
-    {%- endfor %} 
-    </table>
-</div>
-{%- else -%} 
+{% if site.talks != blank -%}
+<ul class="talk-list">
+  {%- assign talks = site.talks | reverse -%}
+  {% for item in talks %}
+  <li class="talk-item">
+    <div class="talk-content">
+    {% if item.inline -%}
+      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+    {%- else -%}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {%- endif %}
+    </div>
+    <div class="talk-meta">
+      {{ item.date | date: "%b %-d, %Y" }}{% if item.place %} · {{ item.place }}{% endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ul>
+{%- else -%}
 <p>No talks so far...</p>
-{%- endif %} 
+{%- endif %}
 </div>

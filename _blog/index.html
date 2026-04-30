@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
+nav: false
 pagination:
   enabled: true
   collection: posts
@@ -16,9 +17,6 @@ pagination:
 
 <div class="post">
 
-  <div class="header-bar">
-    <h1>Qiuyang's Blogs</h1>
-  </div>
 
   {% assign blog_name_size = site.blog_name | size %}
   {% assign blog_description_size = site.blog_description | size %}

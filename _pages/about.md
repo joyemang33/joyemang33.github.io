@@ -136,13 +136,13 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 I'm very fortunate to work with amazing undergraduate students learn from their passion and talent: 
 
 <div class="mentees-list">
-  <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong></p>
+  <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (2025 &ndash; Present)</p>
 
   <p><strong>Past Mentees:</strong>
-  <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> → 5th-year Master @ Berkeley,
-  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong>,
-  <strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> → Citadel Security Summer 2026,
-  <strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> → Optiver Summer 2026</p>
+  <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (2025 &ndash; 2026) → 5th-year Master @ Berkeley,
+  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (2025 &ndash; 2026),
+  <strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (2025 &ndash; 2026) → Citadel Security Summer 2026,
+  <strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (2025 &ndash; 2026) → Optiver Summer 2026</p>
 </div>
 
 If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.

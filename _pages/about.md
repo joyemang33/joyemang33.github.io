@@ -45,7 +45,7 @@ social: true # includes social icons at the bottom of the page
 
 /* Keep content on the left side, never wrap under the right-aligned profile */
 .post article .clearfix {
-  max-width: calc(100% - 380px); /* Adjust based on your profile width */
+  max-width: calc(100% - 340px); /* Adjust based on your profile width */
   clear: none !important;
 }
 

@@ -12,6 +12,7 @@ profile:
   second_image_caption: My cute cat &mdash; Peppa
   image_circular: false # crops the image to make it circular
   address: >
+    <span class="profile-email">qmang AT berkeley.edu</span>
   more_info: >
     <details class="teaching-service-sidebar">
       <summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>

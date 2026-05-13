@@ -61,7 +61,7 @@ nav_order: 4
     {%- endif %}
     </div>
     <div class="talk-meta">
-      {{ item.date | date: "%b %-d, %Y" }}{% if item.place %} · {{ item.place }}{% endif %}
+      {{ item.date | date: "%b %-d, %Y" }}{% if item.place %} · {{ item.place }}{% endif %}{% if item.hoster %} · Hosted by {{ item.hoster | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}{% if item.related %} · Related: {{ item.related | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
     </div>
   </li>
   {%- endfor %}

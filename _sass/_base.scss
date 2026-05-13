@@ -149,8 +149,16 @@ blockquote {
     text-align: center;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .profile-email {
+      display: block;
+      text-align: center;
+      width: 100%;
     }
   }
 

@@ -122,9 +122,9 @@ social: true # includes social icons at the bottom of the page
 
 
 Hi, I’m Qiuyang Mang, a first-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
-I lead [FrontierCS](https://arxiv.org/abs/2512.15699), a benchmark and framework for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
+I lead [FrontierCS](https://arxiv.org/abs/2512.15699) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [FrontierCS](https://arxiv.org/abs/2512.15699), [Argus](https://arxiv.org/abs/2510.06663)
+- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [FrontierCS](https://arxiv.org/abs/2512.15699), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663)
 
 - **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [PLOP](https://arxiv.org/abs/2604.09944), [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230)
 

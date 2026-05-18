@@ -20,7 +20,7 @@ profile:
         <h4>CUHK-Shenzhen</h4>
         <p><strong>2025 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering</p>
         <p><strong>2024 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering<br>
-        🏆 <em>2023-2024 Excellent USTF Award First Class</em></p>
+        🏆 <em>2023-2024 Excellent USTF Award</em></p>
         <p><strong>2021&ndash;2025:</strong> Co-coach of Competitive Programming</p>
         <h4>Service</h4>
         <p><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</p>
@@ -316,7 +316,7 @@ details[open] .mentees-toggle::before {
 **2025 Spring:** Teaching Assitant of CSC4001 Software Engineering
 
 **2024 Spring:** Teaching Assitant of CSC4001 Software Engineering  
-🏆 *2023-2024 Excellent USTF Award First Class*
+🏆 *2023-2024 Excellent USTF Award*
 
 **2021 &ndash; 2025:** Co-coach of Competitive Programming
 

@@ -338,7 +338,7 @@ details[open] .mentees-toggle::before {
 ### Miscellaneous
 
 - 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for several ICPC regionals.
+- I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for regionals.
 - Besides research, I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
 
 I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).

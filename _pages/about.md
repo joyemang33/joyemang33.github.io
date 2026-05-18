@@ -21,7 +21,7 @@ profile:
         <p><strong>2025 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering</p>
         <p><strong>2024 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering<br>
         🏆 <em>2023-2024 Excellent USTF Award</em></p>
-        <p><strong>2021&ndash;2025:</strong> Co-coach of Competitive Programming</p>
+        <p><strong>2021&ndash;2025:</strong> Competitive Programming Coach</p>
         <h4>Service</h4>
         <p><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</p>
         <p><strong>Reviewer:</strong> KDD' 2024, KDD' 2025</p>
@@ -318,7 +318,7 @@ details[open] .mentees-toggle::before {
 **2024 Spring:** Teaching Assitant of CSC4001 Software Engineering  
 🏆 *2023-2024 Excellent USTF Award*
 
-**2021 &ndash; 2025:** Co-coach of Competitive Programming
+**2021 &ndash; 2025:** Competitive Programming Coach
 
 #### Service
 

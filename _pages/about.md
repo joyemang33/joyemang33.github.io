@@ -24,7 +24,7 @@ profile:
         <p><strong>2021&ndash;2025:</strong> Competitive Programming Coach</p>
         <h4>Service</h4>
         <p><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</p>
-        <p><strong>Reviewer:</strong> KDD' 2024, KDD' 2025</p>
+        <p><strong>Reviewer:</strong> KDD' 2024 -- 2026, NeurIPS 2026</p>
         <p><strong>External Reviewer:</strong> OSDI' 2023 Artifact Evaluation</p>
       </div>
     </details>
@@ -324,7 +324,7 @@ details[open] .mentees-toggle::before {
 
 **Artifact Evaluation Committee:** PLDI' 2024, SIGMOD' 25
 
-**Reviewer:** KDD' 2024, KDD' 2025
+**Reviewer:** KDD' 2024 -- 2026, NeurIPS 2026
 
 **External Reviewer:** OSDI' 2023 Artifact Evaluation
 

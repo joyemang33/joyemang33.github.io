@@ -137,7 +137,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 I'm very fortunate to work with amazing undergraduate students learn from their passion and talent: 
 
 <div class="mentees-list">
-  <p><strong><a href="https://github.com/momoway" target="_blank">Runyuan He</a></strong> (2025 &ndash; Present)</p>
+  <p><strong><a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a></strong> (2025 &ndash; Present)</p>
 
   <p><strong>Past Mentees:</strong>
   <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (2025 &ndash; 2026) → 5th-year Master @ Berkeley,

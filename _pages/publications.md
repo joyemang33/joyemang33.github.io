@@ -168,7 +168,7 @@ a.pub-title:hover {
 
 <div class="pub-filters">
   <label class="pub-filter-label">
-    <input type="checkbox" onchange="toggleFirstAuthor(this.checked)">
+    <input type="checkbox" checked onchange="toggleFirstAuthor(this.checked)">
     First author only
   </label>
 </div>
@@ -188,6 +188,11 @@ function toggleFirstAuthor(checked) {
     item.style.display = (isFirst || isCoFirst) ? '' : 'none';
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const firstAuthorFilter = document.querySelector('.pub-filter-label input[type="checkbox"]');
+  if (firstAuthorFilter) toggleFirstAuthor(firstAuthorFilter.checked);
+});
 </script>
 
 {%- for y in page.years %}

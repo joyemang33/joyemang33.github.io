@@ -33,16 +33,20 @@ nav_order: 4
     }
 
     .talk-content a {
-      color: var(--global-text-color);
-      text-decoration: none;
+      color: var(--global-theme-color);
+      text-decoration: underline;
+      text-decoration-color: #722F37;
     }
 
     .talk-content a:hover {
-      color: var(--global-text-color-light);
+      color: var(--global-theme-color);
     }
 
     .talk-content em {
+      color: var(--global-theme-color);
       font-style: normal;
+      text-decoration: underline;
+      text-decoration-color: #722F37;
     }
 
     .talk-meta {

@@ -41,6 +41,10 @@ nav_order: 4
       color: var(--global-text-color-light);
     }
 
+    .talk-content em {
+      font-style: normal;
+    }
+
     .talk-meta {
       font-size: 0.83rem;
       color: var(--global-text-color-light);

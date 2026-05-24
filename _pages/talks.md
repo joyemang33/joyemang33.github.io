@@ -33,13 +33,12 @@ nav_order: 4
     }
 
     .talk-content a {
-      color: var(--global-theme-color);
-      text-decoration: underline;
-      text-decoration-color: #722F37;
+      color: var(--global-text-color);
+      text-decoration: none;
     }
 
     .talk-content a:hover {
-      color: var(--global-theme-color);
+      color: var(--global-text-color-light);
     }
 
     .talk-content em {

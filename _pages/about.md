@@ -182,16 +182,19 @@ details {
   content: '';
   display: inline-block;
   flex: 0 0 auto;
-  width: 0.45em;
-  height: 0.45em;
-  border-right: 2px solid var(--global-theme-color);
-  border-bottom: 2px solid var(--global-theme-color);
-  transform: rotate(-45deg) translateY(-0.05em);
-  transition: transform 0.2s ease;
+  width: 0.72em;
+  height: 0.72em;
+  color: var(--global-theme-color);
+  background:
+    linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat,
+    linear-gradient(currentColor, currentColor) center / 2px 100% no-repeat;
+  transform: translateY(0.02em);
+  transition: background-size 0.2s ease, transform 0.2s ease;
 }
 
 details[open] .mentees-toggle::before {
-  transform: rotate(45deg) translateY(-0.12em);
+  background-size: 100% 2px, 0 0;
+  transform: translateY(0.02em);
 }
 
 .mentees-list {

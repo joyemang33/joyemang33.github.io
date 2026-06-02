@@ -155,6 +155,9 @@ details {
 }
 
 .mentees-toggle {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
   cursor: pointer;
   user-select: none;
   color: var(--global-text-color);
@@ -176,16 +179,19 @@ details {
 }
 
 .mentees-toggle::before {
-  content: '▶';
+  content: '';
   display: inline-block;
-  margin-right: 0.5rem;
+  flex: 0 0 auto;
+  width: 0.45em;
+  height: 0.45em;
+  border-right: 2px solid var(--global-theme-color);
+  border-bottom: 2px solid var(--global-theme-color);
+  transform: rotate(-45deg) translateY(-0.05em);
   transition: transform 0.2s ease;
-  font-size: 0.7em;
-  color: var(--global-theme-color);
 }
 
 details[open] .mentees-toggle::before {
-  transform: rotate(90deg);
+  transform: rotate(45deg) translateY(-0.12em);
 }
 
 .mentees-list {

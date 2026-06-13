@@ -7,15 +7,15 @@ description: AI benchmarks decide which models get funded, deployed, and trusted
 tags: [benchmark, evaluation, reward-hacking, AI safety, trustworthy]
 categories: research
 related_posts: false
-thumbnail: assets/img/trustworthy-benchmarks/teaser.png
-og_image: https://joyemang33.github.io/assets/img/trustworthy-benchmarks/teaser.png
+thumbnail: assets/img/trustworthy-benchmarks/teaser-v2.png
+og_image: https://joyemang33.github.io/assets/img/trustworthy-benchmarks/teaser-v2.png
 toc:
   sidebar: left
 ---
 
 ---
 
-<img src="/assets/img/trustworthy-benchmarks/teaser.png" alt="AI agent celebrating 100% on a benchmark podium — behind the curtain, it's just reading the answers" style="max-width: 40%; display: block; margin: 1rem auto;">
+<img src="/assets/img/trustworthy-benchmarks/teaser-v2.png" alt="Hand-drawn diagram showing benchmark leakage paths that produce fake perfect scores" style="max-width: 90%; display: block; margin: 1rem auto;">
 
 ### Fake Scores, Real Consequences
 

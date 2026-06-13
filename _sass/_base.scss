@@ -169,9 +169,18 @@ blockquote {
 
     a {
       color: var(--global-text-color);
+      border-bottom: 0;
+      text-decoration: none;
+
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
 
       &:hover {
         color: var(--global-theme-color);
+        border-bottom: 0;
+        text-decoration: none;
       }
     }
   }
@@ -288,12 +297,23 @@ blockquote {
     font-size: 1.7rem;
 
     a {
+      border-bottom: 0;
+      text-decoration: none;
+
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        border-bottom: 0;
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -362,12 +382,23 @@ blockquote {
     font-size: 4rem;
 
     a {
+      border-bottom: 0;
+      text-decoration: none;
+
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        border-bottom: 0;
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }

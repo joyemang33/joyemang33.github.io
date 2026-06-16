@@ -14,7 +14,10 @@ $(document).ready(function() {
   if($('#toc-sidebar').length){
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
-    Toc.init($myNav);
+    Toc.init({
+      $nav: $myNav,
+      $scope: $("#markdown-content"),
+    });
     $("body").scrollspy({
       target: navSelector,
     });
@@ -46,4 +49,3 @@ $(document).ready(function() {
     }
   });
 });
-

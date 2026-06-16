@@ -730,6 +730,21 @@ code {
   padding: 3px 3px;
 }
 
+.citation-code-block {
+  pre,
+  code,
+  .highlight,
+  .highlight * {
+    color: var(--global-text-color) !important;
+  }
+
+  pre {
+    background-color: rgba(0, 50, 98, 0.04);
+    border: 1px solid var(--global-divider-color);
+    padding: 0.9rem 1rem;
+  }
+}
+
 
 // Transitioning Themes
 html.transition,

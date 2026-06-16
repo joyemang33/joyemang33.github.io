@@ -2,7 +2,8 @@
 layout: post
 title: "Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era"
 date: 2026-06-16
-author: "Qiuyang Mang, Kaiyuan Liu, Bo Peng, Shreyas Pimpalgaonkar, Alex Dimakis, Alvin Cheung"
+author: "Qiuyang Mang<sup>1</sup>, Kaiyuan Liu<sup>2</sup>, Bo Peng<sup>3</sup>, Shreyas Pimpalgaonkar<sup>4</sup>, Alex Dimakis<sup>1,4</sup>, Alvin Cheung<sup>1</sup>"
+affiliations: "<sup>1</sup> UC Berkeley · <sup>2</sup> University of Washington · <sup>3</sup> Princeton University · <sup>4</sup> Bespoke Labs"
 description: Agents can spend test-time compute by trying, observing, and revising. We derive an Elo reference for repeated sampling, then show that in a 2022 two-week coding marathon, current agents plateau within 24 hours while top humans keep improving.
 tags: [test-time-scaling, LLM-agents, scaling-laws]
 categories: research

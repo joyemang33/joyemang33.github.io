@@ -3,6 +3,7 @@ layout: post
 title: "Humans Still Beat Agents in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era"
 date: 2026-06-16
 author: "Qiuyang Mang, Kaiyuan Liu, Bo Peng, Shreyas Pimpalgaonkar, Alex Dimakis, Alvin Cheung"
+description: Agents can spend test-time compute by trying, observing, and revising. We derive an Elo reference for repeated sampling, then show that in a 2022 two-week coding marathon, current agents plateau within 24 hours while top humans keep improving.
 tags: [test-time-scaling, LLM-agents, scaling-laws]
 categories: research
 thumbnail: assets/img/repeated-sampling-elo-reference.png

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Humans Still Beat Agents in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era"
+title: "Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era"
 date: 2026-06-16
 author: "Qiuyang Mang, Kaiyuan Liu, Bo Peng, Shreyas Pimpalgaonkar, Alex Dimakis, Alvin Cheung"
 description: Agents can spend test-time compute by trying, observing, and revising. We derive an Elo reference for repeated sampling, then show that in a 2022 two-week coding marathon, current agents plateau within 24 hours while top humans keep improving.
@@ -163,7 +163,7 @@ Our full paper is coming soon. In the meantime, please cite this blog post if yo
 
 ```bibtex
 @misc{mang2026humansstillbeatagents,
-  title  = {Humans Still Beat Agents in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era},
+  title  = {Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era},
   author = {Qiuyang Mang and Kaiyuan Liu and Bo Peng and Shreyas Pimpalgaonkar and Alex Dimakis and Alvin Cheung},
   year   = {2026},
   url    = {https://joyemang33.github.io/blog/2026/humans-dont-just-sample/}

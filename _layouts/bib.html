@@ -80,8 +80,8 @@
         {%- assign author_array_limit = author_array_size -%}
         {%- assign author_tail_limit = 0 -%}
         {%- if entry.author_limit -%}
-          {%- assign author_array_limit = entry.author_limit -%}
-          {%- assign author_tail_limit = entry.author_tail | default: 0 -%}
+          {%- assign author_array_limit = entry.author_limit | plus: 0 -%}
+          {%- assign author_tail_limit = entry.author_tail | default: 0 | plus: 0 -%}
         {%- endif -%}
 
         {%- for author in entry.author_array limit: author_array_limit -%}

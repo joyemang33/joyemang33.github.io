@@ -9,7 +9,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 <style>
-.pub-filters {
+.pub-legend {
   float: right;
   margin-top: -4.5rem;
 }
@@ -18,22 +18,22 @@ nav_order: 1
   font-family: 'Merriweather', Georgia, serif;
 }
 
-.pub-filter-label {
+.pub-legend-item {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  cursor: pointer;
   font-size: 0.88rem;
   font-family: 'Merriweather', Georgia, serif;
   color: var(--global-text-color);
   user-select: none;
 }
 
-.pub-filter-label input[type="checkbox"] {
-  accent-color: #003262;
-  width: 1rem;
-  height: 1rem;
-  cursor: pointer;
+.pub-legend-swatch {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 3px;
+  background: rgba(0, 50, 98, 0.08);
+  border: 1px solid rgba(0, 50, 98, 0.18);
 }
 
 /* Hide year headers and list chrome */
@@ -56,6 +56,13 @@ nav_order: 1
 /* Publication items */
 .pub-item {
   margin-bottom: 1.25rem;
+}
+
+.pub-item-highlighted {
+  background: rgba(0, 50, 98, 0.055);
+  border-left: 3px solid rgba(0, 50, 98, 0.45);
+  padding: 0.65rem 0.85rem;
+  border-radius: 0 4px 4px 0;
 }
 
 .pub-title-line {
@@ -162,38 +169,20 @@ a.pub-title:hover {
   line-height: 1.4em;
   padding: 10px;
 }
+
+@media (max-width: 768px) {
+  .pub-legend {
+    float: none;
+    margin: 0 0 1rem;
+  }
+}
 </style>
 
 <div class="publications">
 
-<div class="pub-filters">
-  <label class="pub-filter-label">
-    <input type="checkbox" checked onchange="toggleFirstAuthor(this.checked)">
-    First author only
-  </label>
+<div class="pub-legend">
+  <span class="pub-legend-item"><span class="pub-legend-swatch" aria-hidden="true"></span>First/co-first author</span>
 </div>
-
-<script>
-function toggleFirstAuthor(checked) {
-  document.querySelectorAll('.publications ol.bibliography li').forEach(item => {
-    if (!checked) {
-      item.style.display = '';
-      return;
-    }
-    const authorEl = item.querySelector('.pub-author');
-    if (!authorEl) { item.style.display = 'none'; return; }
-    const text = authorEl.textContent || '';
-    const isFirst = text.match(/^\s*Qiuyang Mang/);
-    const isCoFirst = text.includes('Qiuyang Mang*');
-    item.style.display = (isFirst || isCoFirst) ? '' : 'none';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const firstAuthorFilter = document.querySelector('.pub-filter-label input[type="checkbox"]');
-  if (firstAuthorFilter) toggleFirstAuthor(firstAuthorFilter.checked);
-});
-</script>
 
 {%- for y in page.years %}
   {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}

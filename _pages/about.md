@@ -114,6 +114,110 @@ social: true # includes social icons at the bottom of the page
   font-size: 1.3rem;
 }
 
+.about-featured-publications {
+  clear: both;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.about-featured-publications h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.05rem;
+}
+
+.featured-paper-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.featured-paper {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.featured-paper:last-child {
+  border-bottom: 0;
+}
+
+.featured-paper-visual {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  background: #f7f8fa;
+}
+
+.featured-paper-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.featured-paper h4 {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.featured-paper h4 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.featured-paper h4 a:hover {
+  text-decoration: underline;
+}
+
+.featured-paper-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+  margin: 0 0 0.35rem;
+}
+
+.featured-paper-desc {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0.25rem 0 0.45rem;
+}
+
+.featured-paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.featured-paper-links a {
+  color: var(--global-text-color-light);
+  text-decoration: underline;
+}
+
+.featured-paper-links a:hover {
+  color: var(--global-text-color);
+}
+
+@media (min-width: 769px) {
+  .about-featured-publications {
+    width: calc(100vw - 2rem);
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-paper {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
 .post article a {
   text-decoration: underline;
   text-decoration-color: #722F37;
@@ -148,6 +252,62 @@ I'm very fortunate to work with amazing undergraduate students learn from their 
 
 If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.
 </details>
+
+<div class="about-featured-publications" markdown="1">
+
+### Selected Publications
+
+<div class="featured-paper-list">
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://arxiv.org/abs/2605.14445" aria-label="FrontierSmith paper">
+      <img src="/assets/img/featured-publications/frontiersmith-pipeline.png" alt="FrontierSmith pipeline overview">
+    </a>
+    <div>
+      <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
+      <p class="featured-paper-meta">Preprint, 2026</p>
+      <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2605.14445">paper</a>
+        <a href="https://github.com/FrontierCS/FrontierSmith">code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://frontier-cs.org" aria-label="FrontierCS website">
+      <img src="/assets/img/featured-publications/frontiercs-polyomino.gif" alt="FrontierCS polyomino packing task visualization">
+    </a>
+    <div>
+      <h4><a href="https://frontier-cs.org">FrontierCS: Evolving Challenges for Evolving Intelligence</a></h4>
+      <p class="featured-paper-meta">ICML 2026</p>
+      <p class="featured-paper-desc">A benchmark of unsolved, open-ended, verifiable computer science challenges that can evolve with increasingly capable agents.</p>
+      <div class="featured-paper-links">
+        <a href="https://frontier-cs.org">website</a>
+        <a href="https://arxiv.org/abs/2512.15699">paper</a>
+        <a href="https://github.com/FrontierCS/Frontier-CS">code</a>
+        <a href="/assets/pdf/frontiercs-presentation.pdf">slides</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://arxiv.org/abs/2510.06663" aria-label="Argus paper">
+      <img src="/assets/img/argus-2.png" alt="Argus pipeline overview">
+    </a>
+    <div>
+      <h4><a href="https://arxiv.org/abs/2510.06663">Argus: Automated Discovery of Test Oracles for Database Management Systems Using LLMs</a></h4>
+      <p class="featured-paper-meta">SIGMOD 2026</p>
+      <p class="featured-paper-desc">A framework that discovers and verifies DBMS test oracles with LLMs, finding previously unknown logic bugs in widely used databases.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2510.06663">paper</a>
+        <a href="/assets/pdf/argus.pdf">slides</a>
+        <a href="/blog/2026/argus/">blog</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+</div>
 
 <style>
 details {

@@ -1,7 +1,16 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="pub-item">
+      {%- assign first_author = entry.author_array | first -%}
+      {%- assign first_author_last_name = first_author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+      {%- assign highlighted_author = false -%}
+      {%- if first_author.first == "Qiuyang" and first_author_last_name == "Mang" -%}
+        {%- assign highlighted_author = true -%}
+      {%- endif -%}
+      {%- if entry.author contains "Qiuyang Mang*" -%}
+        {%- assign highlighted_author = true -%}
+      {%- endif -%}
+      <div class="pub-item{% if highlighted_author %} pub-item-highlighted{% endif %}">
         <!-- Title + venue + links -->
         <div class="pub-title-line">
         {%- if entry.pdf -%}

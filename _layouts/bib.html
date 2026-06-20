@@ -78,6 +78,11 @@
         <div class="pub-author">
         {%- assign author_array_size = entry.author_array | size -%}
         {%- assign author_array_limit = author_array_size -%}
+        {%- assign author_tail_limit = 0 -%}
+        {%- if entry.author_limit -%}
+          {%- assign author_array_limit = entry.author_limit -%}
+          {%- assign author_tail_limit = entry.author_tail | default: 0 -%}
+        {%- endif -%}
 
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
@@ -111,14 +116,15 @@
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
-        {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+        {%- assign visible_authors = author_array_limit | plus: author_tail_limit -%}
+        {%- assign more_authors = author_array_size | minus: visible_authors -%}
         {%- assign more_authors_hide = more_authors | append: " more author" -%}
         {%- if more_authors > 0 -%}
           {%- if more_authors > 1 -%}
             {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
           {%- endif -%}
           {%- assign more_authors_show = '' -%}
-          {%- for author in entry.author_array offset: author_array_limit -%}
+          {%- for author in entry.author_array offset: author_array_limit limit: more_authors -%}
             {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
             {%- unless forloop.last -%}
               {%- assign more_authors_show = more_authors_show | append: ", " -%}
@@ -139,6 +145,37 @@
               }, '{{site.more_authors_animation_delay}}');
               "
           >{{more_authors_hide}}</span>
+          {%- if author_tail_limit > 0 -%}
+            {%- assign tail_offset = author_array_size | minus: author_tail_limit -%}
+            {%- for author in entry.author_array offset: tail_offset -%}
+              {%- assign author_is_self = false -%}
+              {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+              {%- if site.scholar.last_name contains author_last_name -%}
+                {%- if site.scholar.first_name contains author.first -%}
+                  {%- assign author_is_self = true -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- assign coauthor_url = nil -%}
+              {%- if site.data.coauthors[author_last_name] -%}
+                {%- for coauthor in site.data.coauthors[author_last_name] -%}
+                  {%- if coauthor.firstname contains author.first -%}
+                    {%- assign coauthor_url = coauthor.url -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+              ,&nbsp;{%- if forloop.last -%}and&nbsp;{%- endif -%}
+              {%- if author_is_self -%}
+                <strong>{{author.first}} {{author.last}}</strong>
+              {%- else -%}
+                {%- if coauthor_url -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- else -%}
+                  {{author.first}} {{author.last}}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
         {%- endif -%}
         </div>
 

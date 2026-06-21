@@ -266,7 +266,7 @@ I'm very fortunate to work with amazing undergraduate students learn from their 
 
   <p><strong>Past Mentees:</strong>
   <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (2025 &ndash; 2026) → 5th-year Master @ Berkeley,
-  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (2025 &ndash; 2026),
+  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (2025 &ndash; 2026) → PhD @ CUHK-Shenzhen,
   <strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (2025 &ndash; 2026) → Citadel Securities Summer 2026,
   <strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (2025 &ndash; 2026) → Optiver Summer 2026</p>
 </div>

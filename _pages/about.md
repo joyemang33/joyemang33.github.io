@@ -219,24 +219,14 @@ social: true # includes social icons at the bottom of the page
 }
 
 @media (min-width: 769px) {
-  .about-featured-publications {
-    width: min(calc(100vw - 2rem), 1120px);
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
   .featured-paper {
-    grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
-    gap: 1.4rem;
+    grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+    gap: 1.25rem;
     padding: 1rem 0;
   }
 }
 
 @media (max-width: 768px) {
-  .about-featured-publications {
-    transform: none;
-  }
-
   .featured-paper {
     grid-template-columns: 1fr;
     gap: 0.75rem;

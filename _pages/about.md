@@ -134,7 +134,7 @@ social: true # includes social icons at the bottom of the page
 
 .featured-paper {
   display: grid;
-  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  grid-template-columns: minmax(150px, 240px) minmax(0, 1fr);
   gap: 1rem;
   align-items: center;
   padding: 0.85rem 0;
@@ -151,6 +151,8 @@ social: true # includes social icons at the bottom of the page
   border: 1px solid var(--global-divider-color);
   border-radius: 4px;
   background: #fff;
+  box-sizing: border-box;
+  padding: 0.35rem;
 }
 
 .featured-paper-visual img {
@@ -182,6 +184,17 @@ social: true # includes social icons at the bottom of the page
   margin: 0 0 0.35rem;
 }
 
+.featured-paper-authors {
+  color: var(--global-text-color);
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 0 0 0.25rem;
+}
+
+.featured-paper-authors strong {
+  font-weight: 600;
+}
+
 .featured-paper-desc {
   font-size: 0.88rem;
   line-height: 1.55;
@@ -207,12 +220,23 @@ social: true # includes social icons at the bottom of the page
 
 @media (min-width: 769px) {
   .about-featured-publications {
-    width: calc(100vw - 2rem);
-    max-width: 930px;
+    width: min(calc(100vw - 2rem), 1120px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .featured-paper {
+    grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+    gap: 1.4rem;
+    padding: 1rem 0;
   }
 }
 
 @media (max-width: 768px) {
+  .about-featured-publications {
+    transform: none;
+  }
+
   .featured-paper {
     grid-template-columns: 1fr;
     gap: 0.75rem;
@@ -470,6 +494,7 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
+      <p class="featured-paper-authors"><strong>Runyuan He*</strong>, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, ... Alvin Cheung</p>
       <p class="featured-paper-meta">Preprint, 2026</p>
       <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
       <div class="featured-paper-links">
@@ -485,6 +510,7 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://frontier-cs.org">FrontierCS: Evolving Challenges for Evolving Intelligence</a></h4>
+      <p class="featured-paper-authors"><strong>Qiuyang Mang*</strong>, Wenhao Chai*, Zhifei Li*, Huanzhi Mao*, Shang Zhou*, Alexander Du*, Hanchen Li*, Shu Liu*, ... Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung</p>
       <p class="featured-paper-meta">ICML 2026</p>
       <p class="featured-paper-desc">A benchmark of unsolved, open-ended, verifiable computer science challenges that can evolve with increasingly capable agents.</p>
       <div class="featured-paper-links">
@@ -502,6 +528,7 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2510.06663">Argus: Automated Discovery of Test Oracles for Database Management Systems Using LLMs</a></h4>
+      <p class="featured-paper-authors"><strong>Qiuyang Mang</strong>, Runyuan He, Suyang Zhong, Xiaoxuan Liu, Huanchen Zhang, Alvin Cheung</p>
       <p class="featured-paper-meta">SIGMOD 2026</p>
       <p class="featured-paper-desc">A framework that discovers and verifies DBMS test oracles with LLMs, finding previously unknown logic bugs in widely used databases.</p>
       <div class="featured-paper-links">

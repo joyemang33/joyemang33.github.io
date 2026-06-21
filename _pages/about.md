@@ -134,25 +134,21 @@ social: true # includes social icons at the bottom of the page
   display: grid;
   grid-template-columns: minmax(150px, 240px) minmax(0, 1fr);
   gap: 1rem;
-  align-items: center;
+  align-items: start;
   padding: 0.35rem 0;
 }
 
 .featured-paper-visual {
-  aspect-ratio: 16 / 10;
-  overflow: hidden;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 4px;
-  background: #fff;
-  box-sizing: border-box;
-  padding: 0.35rem;
+  display: block;
+  line-height: 0;
 }
 
 .featured-paper-visual img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
   display: block;
+  border-radius: 4px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.11);
 }
 
 .featured-paper h4 {

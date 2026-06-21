@@ -490,7 +490,7 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
-      <p class="featured-paper-authors"><strong>Runyuan He*</strong>, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
+      <p class="featured-paper-authors">Runyuan He*, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
       <p class="featured-paper-meta">Preprint, 2026</p>
       <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
       <div class="featured-paper-links">

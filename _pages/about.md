@@ -156,7 +156,7 @@ social: true # includes social icons at the bottom of the page
 }
 
 .featured-paper h4 {
-  font-size: 0.92rem;
+  font-size: 1.3rem;
   line-height: 1.3;
   margin: 0 0 0.25rem;
   font-weight: 600;

@@ -117,8 +117,6 @@ social: true # includes social icons at the bottom of the page
 .about-featured-publications {
   clear: both;
   margin-top: 2.5rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--global-divider-color);
   scroll-margin-top: 4.5rem;
 }
 
@@ -129,7 +127,7 @@ social: true # includes social icons at the bottom of the page
 
 .featured-paper-list {
   display: grid;
-  gap: 1rem;
+  gap: 1.35rem;
 }
 
 .featured-paper {
@@ -137,12 +135,7 @@ social: true # includes social icons at the bottom of the page
   grid-template-columns: minmax(150px, 240px) minmax(0, 1fr);
   gap: 1rem;
   align-items: center;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.featured-paper:last-child {
-  border-bottom: 0;
+  padding: 0.35rem 0;
 }
 
 .featured-paper-visual {
@@ -195,6 +188,18 @@ social: true # includes social icons at the bottom of the page
   font-weight: 600;
 }
 
+.featured-paper-authors .more-authors {
+  color: var(--global-theme-color);
+  cursor: pointer;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.featured-paper-authors .more-authors:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
 .featured-paper-desc {
   font-size: 0.88rem;
   line-height: 1.55;
@@ -219,6 +224,11 @@ social: true # includes social icons at the bottom of the page
 }
 
 @media (min-width: 769px) {
+  .about-featured-publications {
+    width: calc(100% + 340px);
+    max-width: none;
+  }
+
   .featured-paper {
     grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
     gap: 1.25rem;
@@ -484,7 +494,7 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
-      <p class="featured-paper-authors"><strong>Runyuan He*</strong>, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, ... Alvin Cheung</p>
+      <p class="featured-paper-authors"><strong>Runyuan He*</strong>, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
       <p class="featured-paper-meta">Preprint, 2026</p>
       <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
       <div class="featured-paper-links">
@@ -500,7 +510,22 @@ I understand how deeply research success depends on access and opportunity, and 
     </a>
     <div>
       <h4><a href="https://frontier-cs.org">FrontierCS: Evolving Challenges for Evolving Intelligence</a></h4>
-      <p class="featured-paper-authors"><strong>Qiuyang Mang*</strong>, Wenhao Chai*, Zhifei Li*, Huanzhi Mao*, Shang Zhou*, Alexander Du*, Hanchen Li*, Shu Liu*, ... Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung</p>
+      <p class="featured-paper-authors"><strong>Qiuyang Mang*</strong>, Wenhao Chai*, Zhifei Li*, Huanzhi Mao*, Shang Zhou*, Alexander Du*, Hanchen Li*, Shu Liu*, and
+        <span class="more-authors" title="click to view 48 more authors"
+            onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var hiddenText = 'Edwin Chen, Yichuan Wang, Xieting Chu, Zerui Cheng, Yuan Xu, Tian Xia, Zirui Wang, Tianneng Shi, Jianzhu Yao, Yilong Zhao, Qizheng Zhang, Charlie F. Ruan, Zeyu Shen, Kaiyuan Liu, Zhaoyang Hong, Alex Gu, Ziyi Zhang, Runyuan He, Dong Xing, Zerui Li, Zirong Zeng, Yige Jiang, Lufeng Cheng, Ziyi Zhao, Youran Sun, Suyang Zhong, Junpeng Wang, Donglin Li, Wenyuan Huang, Jialiang Gu, Wesley Kai Zheng, Wangmeiyu Zhang, Ruyi Ji, Xuechang Tu, Zihan Zheng, Zhaozi Wang, Zexing Chen, Jingbang Chen, Jialu Zhang, Aleksandra Korolova, Peter Henderson, Pramod Viswanath, Vijay Ganesh, Saining Xie, Zhuang Liu, Dawn Song, Sewon Min, Ion Stoica';
+              var moreAuthorsText = element.text() == '48 more authors' ? hiddenText : '48 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function() {
+                element.text(moreAuthorsText.substring(0, cursorPosition + 1));
+                if (++cursorPosition == moreAuthorsText.length) {
+                  clearInterval(textAdder);
+                }
+              }, 10);
+            "
+        >48 more authors</span>, Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung</p>
       <p class="featured-paper-meta">ICML 2026</p>
       <p class="featured-paper-desc">A benchmark of unsolved, open-ended, verifiable computer science challenges that can evolve with increasingly capable agents.</p>
       <div class="featured-paper-links">

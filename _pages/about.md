@@ -543,6 +543,7 @@ I understand how deeply research success depends on access and opportunity, and 
       <p class="featured-paper-desc">A framework that discovers and verifies DBMS test oracles with LLMs, finding previously unknown logic bugs in widely used databases.</p>
       <div class="featured-paper-links">
         <a href="https://arxiv.org/abs/2510.06663">paper</a>
+        <a href="https://github.com/joyemang33/Argus">code</a>
         <a href="/assets/pdf/argus.pdf">slides</a>
         <a href="/blog/2026/argus/">blog</a>
       </div>

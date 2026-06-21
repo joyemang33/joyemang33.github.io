@@ -9,31 +9,8 @@ nav_order: 1
 <!-- _pages/publications.md -->
 
 <style>
-.pub-legend {
-  float: right;
-  margin-top: -4.5rem;
-}
-
 .pub-item {
   font-family: 'Merriweather', Georgia, serif;
-}
-
-.pub-legend-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.88rem;
-  font-family: 'Merriweather', Georgia, serif;
-  color: var(--global-text-color);
-  user-select: none;
-}
-
-.pub-legend-swatch {
-  width: 0.95rem;
-  height: 0.95rem;
-  border-radius: 3px;
-  background: rgba(0, 50, 98, 0.08);
-  border: 1px solid rgba(0, 50, 98, 0.18);
 }
 
 /* Hide year headers and list chrome */
@@ -170,19 +147,9 @@ a.pub-title:hover {
   padding: 10px;
 }
 
-@media (max-width: 768px) {
-  .pub-legend {
-    float: none;
-    margin: 0 0 1rem;
-  }
-}
 </style>
 
 <div class="publications">
-
-<div class="pub-legend">
-  <span class="pub-legend-item"><span class="pub-legend-swatch" aria-hidden="true"></span>First-author</span>
-</div>
 
 {%- for y in page.years %}
   {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}

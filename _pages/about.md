@@ -156,6 +156,7 @@ social: true # includes social icons at the bottom of the page
 }
 
 .featured-paper h4 {
+  font-size: 0.92rem;
   line-height: 1.3;
   margin: 0 0 0.25rem;
   font-weight: 600;
@@ -495,6 +496,7 @@ I understand how deeply research success depends on access and opportunity, and 
       <div class="featured-paper-links">
         <a href="https://arxiv.org/abs/2605.14445">paper</a>
         <a href="https://github.com/FrontierCS/FrontierSmith">code</a>
+        <a href="/assets/pdf/frontiersmith.pdf">slides</a>
       </div>
     </div>
   </article>

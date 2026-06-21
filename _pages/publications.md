@@ -181,7 +181,7 @@ a.pub-title:hover {
 <div class="publications">
 
 <div class="pub-legend">
-  <span class="pub-legend-item"><span class="pub-legend-swatch" aria-hidden="true"></span>First/co-first author</span>
+  <span class="pub-legend-item"><span class="pub-legend-swatch" aria-hidden="true"></span>First-author</span>
 </div>
 
 {%- for y in page.years %}

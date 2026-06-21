@@ -156,7 +156,6 @@ social: true # includes social icons at the bottom of the page
 }
 
 .featured-paper h4 {
-  font-size: 1.1rem;
   line-height: 1.3;
   margin: 0 0 0.25rem;
   font-weight: 600;
@@ -173,13 +172,11 @@ social: true # includes social icons at the bottom of the page
 
 .featured-paper-meta {
   color: var(--global-text-color-light);
-  font-size: 0.86rem;
   margin: 0 0 0.35rem;
 }
 
 .featured-paper-authors {
   color: var(--global-text-color);
-  font-size: 0.86rem;
   line-height: 1.45;
   margin: 0 0 0.25rem;
 }
@@ -201,7 +198,6 @@ social: true # includes social icons at the bottom of the page
 }
 
 .featured-paper-desc {
-  font-size: 0.88rem;
   line-height: 1.55;
   margin: 0.25rem 0 0.45rem;
 }
@@ -210,7 +206,6 @@ social: true # includes social icons at the bottom of the page
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 0.65rem;
-  font-size: 0.84rem;
   font-weight: 600;
 }
 

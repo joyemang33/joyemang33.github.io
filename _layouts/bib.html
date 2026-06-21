@@ -10,6 +10,13 @@
       {%- if entry.author contains "Qiuyang Mang*" -%}
         {%- assign highlighted_author = true -%}
       {%- endif -%}
+      {%- for author in entry.author_array -%}
+        {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "†" | remove: "^" -%}
+        {%- assign clean_author_last_name = author_last_name | remove: "*" -%}
+        {%- if author.first == "Qiuyang" and clean_author_last_name == "Mang" and author_last_name contains "*" -%}
+          {%- assign highlighted_author = true -%}
+        {%- endif -%}
+      {%- endfor -%}
       <div class="pub-item{% if highlighted_author %} pub-item-highlighted{% endif %}">
         <!-- Title + venue + links -->
         <div class="pub-title-line">

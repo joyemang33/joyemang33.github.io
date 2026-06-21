@@ -221,6 +221,10 @@ social: true # includes social icons at the bottom of the page
     max-width: none;
   }
 
+  .featured-paper-visual {
+    transform: translateX(-0.35rem);
+  }
+
   .featured-paper {
     grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
     gap: 1.25rem;

@@ -37,6 +37,8 @@ nav_order: 1
 
 .pub-item-highlighted {
   background: rgba(0, 50, 98, 0.055);
+  margin-left: -0.85rem;
+  margin-right: -0.85rem;
   padding: 0.65rem 0.85rem;
   border-radius: 4px;
 }

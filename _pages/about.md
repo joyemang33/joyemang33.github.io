@@ -527,10 +527,10 @@ I understand how deeply research success depends on access and opportunity, and 
       <p class="featured-paper-meta">ICML 2026</p>
       <p class="featured-paper-desc">A benchmark of unsolved, open-ended, verifiable computer science challenges that can evolve with increasingly capable agents.</p>
       <div class="featured-paper-links">
-        <a href="https://frontier-cs.org">website</a>
         <a href="https://arxiv.org/abs/2512.15699">paper</a>
         <a href="https://github.com/FrontierCS/Frontier-CS">code</a>
         <a href="/assets/pdf/frontiercs-presentation.pdf">slides</a>
+        <a href="https://frontier-cs.org">website</a>
       </div>
     </div>
   </article>

@@ -2,7 +2,7 @@
 layout: post
 title: "Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era"
 date: 2026-06-16
-author: "Qiuyang Mang<sup>1</sup>, Kaiyuan Liu<sup>2</sup>, Bo Peng<sup>3</sup>, Shreyas Pimpalgaonkar<sup>4</sup>, Alex Dimakis<sup>1,4</sup>, Alvin Cheung<sup>1</sup>"
+author: "Qiuyang Mang<sup>1</sup>, Kaiyuan Liu<sup>2</sup>, Bo Peng<sup>3</sup>, Shreyas Pimpalgaonkar<sup>4</sup>, Luke Zettlemoyer<sup>2</sup>, Alex Dimakis<sup>1,4</sup>, Alvin Cheung<sup>1</sup>"
 affiliations: "<sup>1</sup> UC Berkeley · <sup>2</sup> University of Washington · <sup>3</sup> Princeton University · <sup>4</sup> Bespoke Labs"
 description: Agents can spend test-time compute by trying, observing, and revising. We derive an Elo reference for repeated sampling, then show that in a 2022 two-week coding marathon, current agents plateau within 24 hours while top humans keep improving.
 tags: [test-time-scaling, LLM-agents, scaling-laws]
@@ -165,7 +165,7 @@ Our full paper is coming soon. In the meantime, please cite this blog post if yo
 ```bibtex
 @misc{mang2026humansstillbeatagents,
   title  = {Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era},
-  author = {Qiuyang Mang and Kaiyuan Liu and Bo Peng and Shreyas Pimpalgaonkar and Alex Dimakis and Alvin Cheung},
+  author = {Qiuyang Mang and Kaiyuan Liu and Bo Peng and Shreyas Pimpalgaonkar and Luke Zettlemoyer and Alex Dimakis and Alvin Cheung},
   year   = {2026},
   url    = {https://joyemang33.github.io/blog/2026/humans-dont-just-sample/}
 }

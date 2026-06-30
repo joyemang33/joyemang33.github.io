@@ -34,7 +34,7 @@
         {%- else -%}
           <span class="pub-sep"> · </span><span class="pub-venue-tag">Preprint, {{entry.year}}</span>
         {%- endif -%}
-        {%- if entry.pdf or entry.code or entry.slides or entry.poster or entry.blog or entry.website or entry.abstract or entry.bibtex_show -%}
+        {%- if entry.pdf or entry.code or entry.slides or entry.talk or entry.poster or entry.blog or entry.website or entry.abstract or entry.bibtex_show -%}
           <span class="pub-sep"> · </span>
           {%- assign link_started = false -%}
           {%- if entry.pdf -%}
@@ -66,6 +66,11 @@
             {%- else -%}
             <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="pub-link">poster</a>
             {%- endif -%}
+            {%- assign link_started = true -%}
+          {%- endif -%}
+          {%- if entry.talk -%}
+            {%- if link_started %}<span class="pub-link-sep"> · </span>{%- endif -%}
+            <a href="{{ entry.talk }}" class="pub-link">talk</a>
             {%- assign link_started = true -%}
           {%- endif -%}
           {%- if entry.blog -%}

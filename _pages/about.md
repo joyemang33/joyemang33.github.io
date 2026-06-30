@@ -497,6 +497,7 @@ I understand how deeply research success depends on access and opportunity, and 
         <a href="https://arxiv.org/abs/2605.14445">paper</a>
         <a href="https://github.com/FrontierCS/FrontierSmith">code</a>
         <a href="/assets/pdf/frontiersmith.pdf">slides</a>
+        <a href="https://www.youtube.com/watch?v=NtVIOh5jFSQ">talk</a>
         <a href="https://frontier-cs.org/blog/frontiersmith/">blog</a>
       </div>
     </div>

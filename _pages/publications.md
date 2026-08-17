@@ -99,7 +99,7 @@ a.pub-title:hover {
 
 .pub-venue-full {
   font-size: 0.88rem;
-  color: var(--global-text-color-light);
+  color: #3b6487;
   line-height: 1.45;
   margin-top: 0.05rem;
 }

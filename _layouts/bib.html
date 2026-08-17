@@ -95,6 +95,10 @@
         {%- endif -%}
         </div>
 
+        {%- if entry.venue_full -%}
+        <div class="pub-venue-full">{{ entry.venue_full }}</div>
+        {%- endif -%}
+
         <!-- Author -->
         <div class="pub-author">
         {%- assign author_array_size = entry.author_array | size -%}

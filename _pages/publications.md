@@ -97,6 +97,13 @@ a.pub-title:hover {
   color: #003262;
 }
 
+.pub-venue-full {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  line-height: 1.45;
+  margin-top: 0.05rem;
+}
+
 .pub-link {
   color: var(--global-text-color-light);
   text-decoration: underline;

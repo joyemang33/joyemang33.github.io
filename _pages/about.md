@@ -246,7 +246,7 @@ social: true # includes social icons at the bottom of the page
 </style>
 
 
-Hi, I’m Qiuyang Mang, a first-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
+Hi, I’m Qiuyang Mang, a second-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
 I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
 - **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)

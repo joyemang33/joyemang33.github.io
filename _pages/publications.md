@@ -69,7 +69,7 @@ nav_order: 1
 
 .pub-title {
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 1rem;
   color: var(--global-text-color);
   text-decoration: none;
 }
@@ -102,14 +102,21 @@ a.pub-title:hover {
 }
 
 .pub-links {
-  white-space: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0 0.45rem;
+}
+
+.pub-links .pub-link-sep {
+  display: none;
 }
 
 .pub-author {
   grid-area: author;
   min-width: 0;
   margin-top: 0.08rem;
-  font-size: 0.88rem;
+  font-size: inherit;
   color: var(--global-text-color-light);
   line-height: 1.5;
 }
@@ -142,7 +149,7 @@ a.pub-title:hover {
 .pub-venue-tag {
   display: block;
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: inherit;
   font-style: italic;
   color: #003262;
 }
@@ -151,7 +158,7 @@ a.pub-title:hover {
   grid-area: venue-full;
   min-width: 0;
   margin-top: 0.08rem;
-  font-size: 0.88rem;
+  font-size: inherit;
   color: #3b6487;
   line-height: 1.45;
 }
@@ -160,7 +167,7 @@ a.pub-title:hover {
   color: var(--global-text-color-light);
   text-decoration: underline;
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: inherit;
   font-weight: 600;
 }
 
@@ -233,6 +240,11 @@ a.pub-title:hover {
   .pub-venue-tag,
   .pub-links {
     display: inline;
+  }
+
+  .pub-links {
+    display: inline-flex;
+    justify-content: flex-start;
   }
 
   .pub-links::before {

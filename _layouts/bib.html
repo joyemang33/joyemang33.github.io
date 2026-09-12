@@ -18,7 +18,7 @@
         {%- endif -%}
       {%- endfor -%}
       <div class="pub-item{% if highlighted_author %} pub-item-highlighted{% endif %}">
-        <!-- Title + venue + links -->
+        <!-- Title -->
         <div class="pub-title-line">
         {%- if entry.pdf -%}
           {% if entry.pdf contains '://' -%}
@@ -29,13 +29,17 @@
         {%- else -%}
           <span class="pub-title">{{entry.title}}</span>
         {%- endif -%}
+        </div>
+
+        <!-- Venue + links -->
+        <div class="pub-meta">
         {%- if entry.abbr -%}
-          <span class="pub-sep"> · </span><span class="pub-venue-tag">{{entry.abbr}}</span>
+          <span class="pub-venue-tag">{{entry.abbr}}</span>
         {%- else -%}
-          <span class="pub-sep"> · </span><span class="pub-venue-tag">Preprint, {{entry.year}}</span>
+          <span class="pub-venue-tag">Preprint, {{entry.year}}</span>
         {%- endif -%}
         {%- if entry.pdf or entry.code or entry.slides or entry.talk or entry.poster or entry.blog or entry.website or entry.abstract or entry.bibtex_show -%}
-          <span class="pub-sep"> · </span>
+          <div class="pub-links">
           {%- assign link_started = false -%}
           {%- if entry.pdf -%}
             {% if entry.pdf contains '://' -%}
@@ -92,12 +96,9 @@
             {%- if link_started %}<span class="pub-link-sep"> · </span>{%- endif -%}
             <a class="bibtex pub-link" role="button">bibtex</a>
           {%- endif -%}
+          </div>
         {%- endif -%}
         </div>
-
-        {%- if entry.venuefull -%}
-        <div class="pub-venue-full">{{ entry.venuefull }}</div>
-        {%- endif -%}
 
         <!-- Author -->
         <div class="pub-author">
@@ -203,6 +204,10 @@
           {%- endif -%}
         {%- endif -%}
         </div>
+
+        {%- if entry.venuefull -%}
+        <div class="pub-venue-full">{{ entry.venuefull }}</div>
+        {%- endif -%}
 
         {% if entry.abstract -%}
         <div class="abstract hidden">

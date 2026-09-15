@@ -249,7 +249,7 @@ social: true # includes social icons at the bottom of the page
 Hi, I’m Qiuyang Mang, a second-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
 I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
+- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
 
 - **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [PLOP](https://arxiv.org/abs/2604.09944), [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230)
 
@@ -484,6 +484,23 @@ I understand how deeply research success depends on access and opportunity, and 
 ### Selected Publications
 
 <div class="featured-paper-list">
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://agent-tts.github.io/agent-tts/" aria-label="Elo-per-token project webpage">
+      <img src="/assets/img/featured-publications/elo-per-token-teaser.png" alt="Elo-per-token agent and human scaling results">
+    </a>
+    <div>
+      <h4><a href="https://agent-tts.github.io/agent-tts/">Elo-per-token</a></h4>
+      <p class="featured-paper-authors">Kaiyuan Liu*, <strong>Qiuyang Mang*</strong>, Bo Peng, Wenhao Chai, Hanchen Li, Shreyas Pimpalgaonkar, Luke Zettlemoyer, Alex Dimakis, Alvin Cheung</p>
+      <p class="featured-paper-meta">Preprint, 2026</p>
+      <p class="featured-paper-desc">An analysis of how agents convert test-time tokens into progress, revealing where their gains fall below independent sampling while expert humans continue improving.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2609.15309">paper</a>
+        <a href="https://github.com/agent-tts/Agent-TTS-Code">code</a>
+        <a href="https://agent-tts.github.io/agent-tts/">blog</a>
+      </div>
+    </div>
+  </article>
+
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://arxiv.org/abs/2605.14445" aria-label="FrontierSmith paper">
       <img src="/assets/img/featured-publications/frontiersmith-pipeline.png" alt="FrontierSmith pipeline overview">

@@ -489,7 +489,7 @@ I understand how deeply research success depends on access and opportunity, and 
       <img src="/assets/img/featured-publications/elo-per-token-teaser.png" alt="Elo-per-token agent and human scaling results">
     </a>
     <div>
-      <h4><a href="https://agent-tts.github.io/agent-tts/">Elo-per-token</a></h4>
+      <h4><a href="https://agent-tts.github.io/agent-tts/">When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis</a></h4>
       <p class="featured-paper-authors">Kaiyuan Liu*, <strong>Qiuyang Mang*</strong>, Bo Peng, Wenhao Chai, Hanchen Li, Shreyas Pimpalgaonkar, Luke Zettlemoyer, Alex Dimakis, Alvin Cheung</p>
       <p class="featured-paper-meta">Preprint, 2026</p>
       <p class="featured-paper-desc">An analysis of how agents convert test-time tokens into progress, revealing where their gains fall below independent sampling while expert humans continue improving.</p>

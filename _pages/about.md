@@ -490,7 +490,8 @@ I understand how deeply research success depends on access and opportunity, and 
       <div class="featured-paper-links">
         <a href="https://arxiv.org/abs/2609.15309">paper</a>
         <a href="https://github.com/agent-tts/Agent-TTS-Code">code</a>
-        <a href="https://agent-tts.github.io/agent-tts/">blog</a>
+        <a href="https://joyemang33.github.io/blog/2026/humans-dont-just-sample/">blog</a>
+        <a href="https://agent-tts.github.io/agent-tts/">website</a>
       </div>
     </div>
   </article>
@@ -567,7 +568,7 @@ I understand how deeply research success depends on access and opportunity, and 
 
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://arxiv.org/abs/2603.08982" aria-label="SVG-EAR paper">
-      <img src="/assets/img/featured-publications/svgear-teaser.webp" alt="SVG-EAR video quality and latency comparison">
+      <img src="/assets/img/featured-publications/svgear-fig2.webp" alt="SVG-EAR attention routing and error comparison">
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2603.08982">SVG-EAR: Parameter-Free Linear Compensation for Sparse Video Generation via Error-aware Routing</a></h4>
@@ -583,7 +584,7 @@ I understand how deeply research success depends on access and opportunity, and 
 
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://arxiv.org/abs/2511.02230" aria-label="Continuum paper">
-      <img src="/assets/img/featured-publications/continuum-system.webp" alt="Continuum system overview">
+      <img src="/assets/img/featured-publications/continuum-fig1.webp" alt="Continuum KV-cache eviction and queueing delay failure modes">
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2511.02230">Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live</a></h4>

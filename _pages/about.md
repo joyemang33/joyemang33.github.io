@@ -263,12 +263,6 @@ I'm very fortunate to work with amazing undergraduate students learn from their 
 
 <div class="mentees-list">
   <p><strong><a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a></strong> (2025 &ndash; Present)</p>
-
-  <p><strong>Past Mentees:</strong>
-  <strong><a href="https://www.linkedin.com/in/wesley-zheng-cal/" target="_blank">Wesley Zheng</a></strong> (2025 &ndash; 2026) → 5th-year Master @ Berkeley,
-  <strong><a href="https://github.com/zengzirong" target="_blank">Zirong Zeng</a></strong> (2025 &ndash; 2026) → PhD @ CUHK-Shenzhen,
-  <strong><a href="https://github.com/DMoRanSky" target="_blank">Frank (Yufan) Xiang</a></strong> (2025 &ndash; 2026) → Citadel Securities Summer 2026,
-  <strong><a href="https://www.linkedin.com/in/alexander-du-0268642a4/" target="_blank">Alexander Du</a></strong> (2025 &ndash; 2026) → Optiver Summer 2026</p>
 </div>
 
 If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.
@@ -567,6 +561,38 @@ I understand how deeply research success depends on access and opportunity, and 
         <a href="https://github.com/joyemang33/Argus">code</a>
         <a href="/assets/pdf/argus.pdf">slides</a>
         <a href="/blog/2026/argus/">blog</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://arxiv.org/abs/2603.08982" aria-label="SVG-EAR paper">
+      <img src="/assets/img/featured-publications/svgear-teaser.webp" alt="SVG-EAR video quality and latency comparison">
+    </a>
+    <div>
+      <h4><a href="https://arxiv.org/abs/2603.08982">SVG-EAR: Parameter-Free Linear Compensation for Sparse Video Generation via Error-aware Routing</a></h4>
+      <p class="featured-paper-authors">Xuanyi Zhou*, <strong>Qiuyang Mang*</strong>, Shuo Yang, Haocheng Xi, Jintao Zhang, Huanzhi Mao, Joseph E. Gonzalez, Kurt Keutzer, Ion Stoica, Alvin Cheung</p>
+      <p class="featured-paper-meta">ECCV 2026</p>
+      <p class="featured-paper-desc">A parameter-free linear compensation method that mitigates sparse-attention error, accelerating video generation without retraining.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2603.08982">paper</a>
+        <a href="https://github.com/svg-project/Sparse-VideoGen">code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://arxiv.org/abs/2511.02230" aria-label="Continuum paper">
+      <img src="/assets/img/featured-publications/continuum-system.webp" alt="Continuum system overview">
+    </a>
+    <div>
+      <h4><a href="https://arxiv.org/abs/2511.02230">Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live</a></h4>
+      <p class="featured-paper-authors">Hanchen Li*, Runyuan He*, <strong>Qiuyang Mang*</strong>, Qizheng Zhang, Huanzhi Mao, Xiaokun Chen, Hangrui Zhou, Huanchen Zhang, Alvin Cheung, Joseph Gonzalez, Ion Stoica</p>
+      <p class="featured-paper-meta">ICLR 2026 LLA Workshop</p>
+      <p class="featured-paper-desc">A KV-cache time-to-live and program-level scheduling system for efficient, robust multi-turn LLM agent serving.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2511.02230">paper</a>
+        <a href="https://github.com/Hanchenli/vllm-continuum">code</a>
       </div>
     </div>
   </article>

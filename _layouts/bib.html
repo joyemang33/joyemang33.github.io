@@ -34,7 +34,7 @@
         <!-- Venue + links -->
         <div class="pub-meta">
         {%- if entry.abbr -%}
-          <span class="pub-venue-tag">{{entry.abbr}}</span>
+          <span class="pub-venue-tag">{{entry.abbr}}{% if entry.spotlight %}<span class="pub-spotlight" style="display: inline-block; margin-left: 0.35rem; color: #c0266d; font-style: normal; font-weight: 700; white-space: nowrap;">Spotlight · {{entry.spotlight}}%</span>{% endif %}</span>
         {%- else -%}
           <span class="pub-venue-tag">Preprint, {{entry.year}}</span>
         {%- endif -%}

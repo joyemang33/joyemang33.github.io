@@ -121,6 +121,8 @@ a.pub-title:hover {
 
 .pub-links .pub-link-sep {
   display: inline;
+  flex: 0 0 auto;
+  margin: 0 0.35rem;
 }
 
 .pub-author {

@@ -11,8 +11,8 @@ nav_order: 1
 <style>
 .publications {
   display: grid;
-  grid-template-columns: 4.75rem minmax(0, 1fr);
-  column-gap: 1.625rem;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  column-gap: 1.5rem;
   row-gap: 2.25rem;
   font-family: 'Merriweather', Georgia, serif;
 }
@@ -25,15 +25,15 @@ nav_order: 1
   align-self: start;
   margin: 0;
   padding-top: 0.85rem;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1.3;
   color: #003262;
 }
 
 .publications h2.bibliography::after {
   content: '';
-  width: 1.5rem;
+  width: 1.25rem;
   border-top: 1px solid rgba(0, 50, 98, 0.13);
 }
 

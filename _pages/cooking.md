@@ -146,23 +146,33 @@ nav_order: 2
 
 @media (max-width: 768px) {
   .cooking-gallery {
-    display: block;
-    columns: 2;
-    column-gap: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: none;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
     aspect-ratio: auto;
   }
 
   .cooking-photo {
     display: block;
     width: 100%;
-    margin-bottom: 0.5rem;
-    break-inside: avoid;
-    aspect-ratio: var(--mobile-ratio, 1);
+    height: 150px;
+    margin: 0;
+    aspect-ratio: auto;
+    grid-area: auto !important;
   }
 
   .cooking-photo--mobile-wide {
-    column-span: all;
+    grid-area: auto / 1 / auto / -1 !important;
+    height: auto;
     aspect-ratio: var(--mobile-wide-ratio, 4 / 3);
+  }
+
+  .cooking-photo:last-child {
+    grid-area: auto / 1 / auto / -1 !important;
+    height: auto;
+    aspect-ratio: 4 / 3;
   }
 
   .cooking-lightbox-frame {

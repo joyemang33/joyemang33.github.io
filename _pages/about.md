@@ -114,6 +114,9 @@ social: true # includes social icons at the bottom of the page
   margin: 0.85rem 0 1.35rem;
   text-align: left;
   line-height: 1.5;
+}
+
+.mentee-entry {
   white-space: nowrap;
 }
 
@@ -183,9 +186,30 @@ social: true # includes social icons at the bottom of the page
   scroll-margin-top: 4.5rem;
 }
 
-.about-featured-publications h3 {
-  font-size: 1.3rem;
+.featured-publications-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.2rem;
   margin-bottom: 1.05rem;
+}
+
+.about-featured-publications .featured-publications-heading h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.featured-paper-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.1rem;
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+
+.mentee-first-author {
+  border-bottom: 1px dashed currentColor;
+  padding-bottom: 1px;
 }
 
 .featured-paper-list {
@@ -319,11 +343,14 @@ I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.o
 
 Prior to joining Berkeley, I received my B.E. from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at the [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/). I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for regionals.
 
-<p class="mentee-section"><strong>Mentee:</strong> <a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a> <span>(2025 &ndash; Present)</span></p>
+<p class="mentee-section"><strong>Mentees:</strong> <span class="mentee-entry"><a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a></span>, <span class="mentee-entry"><a href="https://kaiyuanliu04.github.io/" target="_blank">Kaiyuan Liu</a></span>, <span class="mentee-entry">Xuanyi Zhou</span></p>
 
 <div class="about-featured-publications" markdown="1">
 
-### Selected Publications
+<div class="featured-publications-heading">
+  <h3>Selected Publications</h3>
+  <p class="featured-paper-legend"><span>* Equal contribution</span><span class="mentee-first-author">Mentee first author</span></p>
+</div>
 
 <div class="featured-paper-list">
   <article class="featured-paper">
@@ -332,7 +359,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     </a>
     <div>
       <h4><a href="https://agent-tts.github.io/agent-tts/">When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis</a></h4>
-      <p class="featured-paper-authors">Kaiyuan Liu*, <strong>Qiuyang Mang*</strong>, Bo Peng, Wenhao Chai, Hanchen Li, Shreyas Pimpalgaonkar, Luke Zettlemoyer, Alex Dimakis, Alvin Cheung</p>
+      <p class="featured-paper-authors"><span class="mentee-first-author">Kaiyuan Liu</span>*, <strong>Qiuyang Mang*</strong>, Bo Peng, Wenhao Chai, Hanchen Li, Shreyas Pimpalgaonkar, Luke Zettlemoyer, Alex Dimakis, Alvin Cheung</p>
       <p class="featured-paper-meta">Preprint 2026</p>
       <p class="featured-paper-desc">An analysis of how agents convert test-time tokens into progress, revealing where their gains fall below independent sampling while expert humans continue improving.</p>
       <div class="featured-paper-links">
@@ -350,7 +377,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
-      <p class="featured-paper-authors">Runyuan He*, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
+      <p class="featured-paper-authors"><span class="mentee-first-author">Runyuan He</span>*, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
       <p class="featured-paper-meta">NeurIPS 2026<span style="display: inline-block; margin-left: 0.35rem; color: #c0266d; white-space: nowrap;">Spotlight · 3.7%</span></p>
       <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
       <div class="featured-paper-links">
@@ -420,7 +447,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2603.08982">SVG-EAR: Parameter-Free Linear Compensation for Sparse Video Generation via Error-aware Routing</a></h4>
-      <p class="featured-paper-authors">Xuanyi Zhou*, <strong>Qiuyang Mang*</strong>, Shuo Yang, Haocheng Xi, Jintao Zhang, Huanzhi Mao, Joseph E. Gonzalez, Kurt Keutzer, Ion Stoica, Alvin Cheung</p>
+      <p class="featured-paper-authors"><span class="mentee-first-author">Xuanyi Zhou</span>*, <strong>Qiuyang Mang*</strong>, Shuo Yang, Haocheng Xi, Jintao Zhang, Huanzhi Mao, Joseph E. Gonzalez, Kurt Keutzer, Ion Stoica, Alvin Cheung</p>
       <p class="featured-paper-meta">ECCV 2026</p>
       <p class="featured-paper-desc">A parameter-free linear compensation method that mitigates sparse-attention error, accelerating video generation without retraining.</p>
       <div class="featured-paper-links">
@@ -436,7 +463,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     </a>
     <div>
       <h4><a href="https://arxiv.org/abs/2511.02230">Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live</a></h4>
-      <p class="featured-paper-authors">Hanchen Li*, Runyuan He*, <strong>Qiuyang Mang*</strong>, Qizheng Zhang, Huanzhi Mao, Xiaokun Chen, Hangrui Zhou, Huanchen Zhang, Alvin Cheung, Joseph Gonzalez, Ion Stoica</p>
+      <p class="featured-paper-authors">Hanchen Li*, <span class="mentee-first-author">Runyuan He</span>*, <strong>Qiuyang Mang*</strong>, Qizheng Zhang, Huanzhi Mao, Xiaokun Chen, Hangrui Zhou, Huanchen Zhang, Alvin Cheung, Joseph Gonzalez, Ion Stoica</p>
       <p class="featured-paper-meta">ICLR 2026 LLA Workshop</p>
       <p class="featured-paper-desc">A KV-cache time-to-live and program-level scheduling system for efficient, robust multi-turn LLM agent serving.</p>
       <div class="featured-paper-links">

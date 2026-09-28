@@ -121,6 +121,10 @@ social: true # includes social icons at the bottom of the page
 }
 
 @media (max-width: 768px) {
+  .post-title {
+    font-size: 1.5rem;
+  }
+
   .post article .clearfix {
     max-width: 100%;
     clear: both !important;

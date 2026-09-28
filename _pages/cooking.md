@@ -148,7 +148,7 @@ nav_order: 2
   .cooking-gallery {
     display: block;
     columns: 2;
-    column-gap: 0.5rem;
+    column-gap: 0;
     aspect-ratio: auto;
   }
 

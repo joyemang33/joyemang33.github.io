@@ -64,6 +64,8 @@ nav_order: 2
   background: transparent;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
   cursor: zoom-in;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .cooking-photo img {
@@ -162,12 +164,19 @@ nav_order: 2
     margin: 0;
     aspect-ratio: auto;
     grid-area: auto !important;
+    box-shadow: none;
   }
 
   .cooking-photo--mobile-wide {
     grid-area: auto / 1 / auto / -1 !important;
     height: auto;
     aspect-ratio: var(--mobile-wide-ratio, 4 / 3);
+  }
+
+  .cooking-photo--mobile-wide img,
+  .cooking-photo:last-child img {
+    width: calc(100% + 1px);
+    max-width: none;
   }
 
   .cooking-photo:last-child {
@@ -200,88 +209,88 @@ nav_order: 2
       <img src="/assets/img/cooking/dinner-spread.jpg" alt="An overhead view of a home-cooked dinner spread" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: b; --crop-position: center 58%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/congee-and-tomato-eggs.jpg" aria-label="View congee and tomato eggs">
-      <img src="/assets/img/cooking/congee-and-tomato-eggs.jpg" alt="Congee and tomato eggs on a dining table" loading="lazy">
+      <img src="/assets/img/cooking/congee-and-tomato-eggs.jpg" alt="Congee and tomato eggs on a dining table" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: c; --crop-position: center 54%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/steak-and-bread.jpg" aria-label="View steak dinner and bread">
-      <img src="/assets/img/cooking/steak-and-bread.jpg" alt="Steak dinner with vegetables and homemade bread" loading="lazy">
+      <img src="/assets/img/cooking/steak-and-bread.jpg" alt="Steak dinner with vegetables and homemade bread" loading="eager">
     </button>
 
     <button class="cooking-photo cooking-photo--feature cooking-photo--mobile-wide" type="button" style="grid-area: d; --crop-position: center 54%; --mobile-wide-ratio: 4 / 3;" data-full="/assets/img/cooking/hot-pot-table.jpg" aria-label="View a home hot pot spread">
-      <img src="/assets/img/cooking/hot-pot-table.jpg" alt="A home hot pot spread with beef, tofu, vegetables, and rice" loading="lazy">
+      <img src="/assets/img/cooking/hot-pot-table.jpg" alt="A home hot pot spread with beef, tofu, vegetables, and rice" loading="eager">
     </button>
     <button class="cooking-photo" type="button" style="grid-area: e; --crop-position: center 54%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/tofu-and-greens.jpg" aria-label="View tofu and greens">
-      <img src="/assets/img/cooking/tofu-and-greens.jpg" alt="Braised tofu with greens" loading="lazy">
+      <img src="/assets/img/cooking/tofu-and-greens.jpg" alt="Braised tofu with greens" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: f; --crop-position: center 60%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/salmon-and-brussels-sprouts.jpg" aria-label="View salmon and Brussels sprouts">
-      <img src="/assets/img/cooking/salmon-and-brussels-sprouts.jpg" alt="Garlic salmon with rosemary and Brussels sprouts" loading="lazy">
+      <img src="/assets/img/cooking/salmon-and-brussels-sprouts.jpg" alt="Garlic salmon with rosemary and Brussels sprouts" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--feature cooking-photo--mobile-wide" type="button" style="grid-area: g; --crop-position: center 53%; --mobile-wide-ratio: 4 / 3;" data-full="/assets/img/cooking/soy-glazed-shrimp.jpg" aria-label="View soy-glazed shrimp">
-      <img src="/assets/img/cooking/soy-glazed-shrimp.jpg" alt="Soy-glazed shrimp on a serving plate" loading="lazy">
+      <img src="/assets/img/cooking/soy-glazed-shrimp.jpg" alt="Soy-glazed shrimp on a serving plate" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: h; --crop-position: center 58%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/stir-fried-noodles.jpg" aria-label="View stir-fried noodles">
-      <img src="/assets/img/cooking/stir-fried-noodles.jpg" alt="Stir-fried noodles with eggs and vegetables" loading="lazy">
+      <img src="/assets/img/cooking/stir-fried-noodles.jpg" alt="Stir-fried noodles with eggs and vegetables" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: i; --crop-position: center 52%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/steak-dinner-for-two.jpg" aria-label="View steak dinner for two">
-      <img src="/assets/img/cooking/steak-dinner-for-two.jpg" alt="Two steak dinners with spinach, carrots, and iced drinks" loading="lazy">
+      <img src="/assets/img/cooking/steak-dinner-for-two.jpg" alt="Two steak dinners with spinach, carrots, and iced drinks" loading="eager">
     </button>
 
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: j; --crop-position: center 52%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/braised-ribs-and-greens.jpg" aria-label="View braised ribs and greens">
-      <img src="/assets/img/cooking/braised-ribs-and-greens.jpg" alt="Braised ribs and greens in serving bowls" loading="lazy">
+      <img src="/assets/img/cooking/braised-ribs-and-greens.jpg" alt="Braised ribs and greens in serving bowls" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: k; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/glazed-ribs.jpg" aria-label="View glazed ribs">
-      <img src="/assets/img/cooking/glazed-ribs.jpg" alt="Glazed ribs topped with scallions" loading="lazy">
+      <img src="/assets/img/cooking/glazed-ribs.jpg" alt="Glazed ribs topped with scallions" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: l; --crop-position: center 52%; --mobile-ratio: 3 / 2;" data-full="/assets/img/cooking/beef-egg-and-soup.jpg" aria-label="View beef, eggs, vegetables, and soup">
-      <img src="/assets/img/cooking/beef-egg-and-soup.jpg" alt="Home-cooked beef, eggs, vegetables, and soup" loading="lazy">
+      <img src="/assets/img/cooking/beef-egg-and-soup.jpg" alt="Home-cooked beef, eggs, vegetables, and soup" loading="eager">
     </button>
     <button class="cooking-photo" type="button" style="grid-area: m; --crop-position: center 52%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/layered-drinks.jpg" aria-label="View layered iced drinks">
-      <img src="/assets/img/cooking/layered-drinks.jpg" alt="Pink and green layered iced drinks" loading="lazy">
+      <img src="/assets/img/cooking/layered-drinks.jpg" alt="Pink and green layered iced drinks" loading="eager">
     </button>
     <button class="cooking-photo" type="button" style="grid-area: n; --crop-position: center 62%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/pink-drink.jpg" aria-label="View a pink iced drink">
-      <img src="/assets/img/cooking/pink-drink.jpg" alt="A pink iced drink beside a floral mug" loading="lazy">
+      <img src="/assets/img/cooking/pink-drink.jpg" alt="A pink iced drink beside a floral mug" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: o; --crop-position: center 62%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/matcha-basque-finished.jpg" aria-label="View a finished matcha Basque cheesecake">
-      <img src="/assets/img/cooking/matcha-basque-finished.jpg" alt="A finished matcha Basque cheesecake with a slice cut out" loading="lazy">
+      <img src="/assets/img/cooking/matcha-basque-finished.jpg" alt="A finished matcha Basque cheesecake with a slice cut out" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: q; --crop-position: center 50%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/egg-and-peppers.jpg" aria-label="View eggs and peppers">
-      <img src="/assets/img/cooking/egg-and-peppers.jpg" alt="Eggs and peppers with a side of lettuce" loading="lazy">
+      <img src="/assets/img/cooking/egg-and-peppers.jpg" alt="Eggs and peppers with a side of lettuce" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: r; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/beef-tofu-stew.jpg" aria-label="View beef and tofu stew">
-      <img src="/assets/img/cooking/beef-tofu-stew.jpg" alt="Beef and tofu stew with vegetables" loading="lazy">
+      <img src="/assets/img/cooking/beef-tofu-stew.jpg" alt="Beef and tofu stew with vegetables" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: s; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/braised-beef.jpg" aria-label="View sliced braised beef">
-      <img src="/assets/img/cooking/braised-beef.jpg" alt="Sliced braised beef on a cutting board" loading="lazy">
+      <img src="/assets/img/cooking/braised-beef.jpg" alt="Sliced braised beef on a cutting board" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: p; --crop-position: center 70%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/matcha-basque-baking.jpg" aria-label="View a matcha Basque cheesecake while baking">
-      <img src="/assets/img/cooking/matcha-basque-baking.jpg" alt="A matcha Basque cheesecake baking in parchment paper" loading="lazy">
+      <img src="/assets/img/cooking/matcha-basque-baking.jpg" alt="A matcha Basque cheesecake baking in parchment paper" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: t; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/salmon-rice.jpg" aria-label="View salmon and asparagus rice">
-      <img src="/assets/img/cooking/salmon-rice.jpg" alt="Salmon and asparagus rice served with papaya" loading="lazy">
+      <img src="/assets/img/cooking/salmon-rice.jpg" alt="Salmon and asparagus rice served with papaya" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: u; --crop-position: center 58%; --mobile-ratio: 1;" data-full="/assets/img/cooking/braised-pork-and-cucumber-eggs.jpg" aria-label="View braised pork and cucumber eggs">
-      <img src="/assets/img/cooking/braised-pork-and-cucumber-eggs.jpg" alt="Braised pork with chestnuts and cucumber eggs" loading="lazy">
+      <img src="/assets/img/cooking/braised-pork-and-cucumber-eggs.jpg" alt="Braised pork with chestnuts and cucumber eggs" loading="eager">
     </button>
 
     <button class="cooking-photo" type="button" style="grid-area: v; --crop-position: center 48%; --mobile-ratio: 16 / 9;" data-full="/assets/img/cooking/tomato-eggs-and-rice.jpg" aria-label="View tomato eggs and rice">
-      <img src="/assets/img/cooking/tomato-eggs-and-rice.jpg" alt="Tomato eggs with rice" loading="lazy">
+      <img src="/assets/img/cooking/tomato-eggs-and-rice.jpg" alt="Tomato eggs with rice" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: w; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/dumpling-filling.jpg" aria-label="View homemade dumpling filling">
-      <img src="/assets/img/cooking/dumpling-filling.jpg" alt="Mixing homemade dumpling filling" loading="lazy">
+      <img src="/assets/img/cooking/dumpling-filling.jpg" alt="Mixing homemade dumpling filling" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: x; --crop-position: center 64%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/omelette.jpg" aria-label="View homemade omelette">
-      <img src="/assets/img/cooking/omelette.jpg" alt="A homemade omelette" loading="lazy">
+      <img src="/assets/img/cooking/omelette.jpg" alt="A homemade omelette" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: y; --crop-position: center 52%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/tomato-stew.jpg" aria-label="View tomato stew with rice and vegetables">
-      <img src="/assets/img/cooking/tomato-stew.jpg" alt="Tomato stew served with rice and vegetables" loading="lazy">
+      <img src="/assets/img/cooking/tomato-stew.jpg" alt="Tomato stew served with rice and vegetables" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: z; --crop-position: center 48%; --mobile-ratio: 1;" data-full="/assets/img/cooking/fried-rice.jpg" aria-label="View homemade fried rice">
-      <img src="/assets/img/cooking/fried-rice.jpg" alt="Homemade fried rice on a red plate" loading="lazy">
+      <img src="/assets/img/cooking/fried-rice.jpg" alt="Homemade fried rice on a red plate" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: aa; --crop-position: center 68%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/pumpkin-in-pan.jpg" aria-label="View pumpkin cooking in a pan">
-      <img src="/assets/img/cooking/pumpkin-in-pan.jpg" alt="Pumpkin cooking in a pan" loading="lazy">
+      <img src="/assets/img/cooking/pumpkin-in-pan.jpg" alt="Pumpkin cooking in a pan" loading="eager">
     </button>
     <button class="cooking-photo" type="button" style="grid-area: ab; --crop-position: center 50%; --mobile-ratio: 1;" data-full="/assets/img/cooking/dumplings.jpg" aria-label="View homemade dumplings">
-      <img src="/assets/img/cooking/dumplings.jpg" alt="Homemade dumplings on a red plate" loading="lazy">
+      <img src="/assets/img/cooking/dumplings.jpg" alt="Homemade dumplings on a red plate" loading="eager">
     </button>
   </div>
 </div>

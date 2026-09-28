@@ -84,6 +84,11 @@
                 </div>
               </li>
               {%- else %}
+              {%- if p.title == 'Cooking' %}
+              <li class="nav-item d-none d-sm-flex align-items-center" aria-hidden="true">
+                <span class="nav-link px-1">|</span>
+              </li>
+              {%- endif %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}

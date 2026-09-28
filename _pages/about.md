@@ -37,8 +37,8 @@ social: true # includes social icons at the bottom of the page
 }
 
 .post-title .native-name {
-  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
-  font-weight: 600;
+  font-family: "Songti SC", "STSong", SimSun, serif;
+  font-weight: 450;
 }
 
 .profile .social {

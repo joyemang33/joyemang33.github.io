@@ -1,33 +1,19 @@
 ---
 layout: about
 title: About
+display_name: Qiuyang Mang
+native_name: 忙秋阳
 permalink: /
 subtitle: 
 
 profile:
   align: right
   image: profile7.jpg
-  image_caption: Photo credit &mdash; Hangrui Zhou @ Berlin
   second_image: cat.jpg
   second_image_caption: My cute cat &mdash; Peppa
   image_circular: false # crops the image to make it circular
   address: >
     <span class="profile-email">email: qmang AT berkeley.edu</span>
-  more_info: >
-    <details class="teaching-service-sidebar">
-      <summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>
-      <div class="teaching-service">
-        <h4>CUHK-Shenzhen</h4>
-        <p><strong>2025 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering</p>
-        <p><strong>2024 Spring:</strong> Teaching Assitant of CSC4001 Software Engineering<br>
-        🏆 <em>2023-2024 Excellent USTF Award</em></p>
-        <p><strong>2021&ndash;2025:</strong> Competitive Programming Coach</p>
-        <h4>Service</h4>
-        <p><strong>Artifact Evaluation Committee:</strong> PLDI' 2024, SIGMOD' 25</p>
-        <p><strong>Reviewer:</strong> KDD' 2024 -- 2026, NeurIPS 2026</p>
-        <p><strong>External Reviewer:</strong> OSDI' 2023 Artifact Evaluation</p>
-      </div>
-    </details>
 
 
 news: false  # includes a list of news items
@@ -48,6 +34,87 @@ social: true # includes social icons at the bottom of the page
 .post article .clearfix {
   max-width: calc(100% - 340px); /* Adjust based on your profile width */
   clear: none !important;
+}
+
+.post-title .native-name {
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+  font-weight: 600;
+}
+
+.profile .social {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 2.8rem;
+}
+
+.profile-flip-front .address {
+  margin-top: 0.9rem;
+}
+
+.profile-flip-card {
+  perspective: 1000px;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile-flip-card:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.profile-flip-card-inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.profile-flip-face {
+  grid-area: 1 / 1;
+  min-width: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.profile-flip-face figure {
+  margin: 0;
+}
+
+.profile-flip-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+.profile-flip-back .caption {
+  margin-bottom: 0;
+}
+
+.profile-flip-card.is-flipped .profile-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .profile-flip-card:hover .profile-flip-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-flip-card-inner {
+    transition: none;
+  }
+}
+
+.mentee-section {
+  margin: 0.85rem 0 1.35rem;
+  text-align: left;
+  line-height: 1.5;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -108,10 +175,6 @@ social: true # includes social icons at the bottom of the page
 .post article li strong,
 .post article li b {
   font-weight: 600 !important;
-}
-
-#miscellaneous-section h3 {
-  font-size: 1.3rem;
 }
 
 .about-featured-publications {
@@ -250,229 +313,13 @@ social: true # includes social icons at the bottom of the page
 Hi, I’m Qiuyang Mang, a second-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
 I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **LLM Long-Horizon Optimization**: Leveraging LLMs for complex, multi-step optimization, powering long-horizon code-agent from data curation to post-training. [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
+- **Long-Horizon LLM Agents**: Understanding, developing, and improving LLM agents for complex, multi-step optimization across data synthesis, test-time scaling, post-training algorithms, and domain-specific applications. [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
 
-- **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [PLOP](https://arxiv.org/abs/2604.09944), [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230)
+- **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230), [PLOP](https://arxiv.org/abs/2604.09944)
 
-Prior to joining Berkeley, I received my B.E. from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at the [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/). During my undergraduate years, I worked on robustifying NLP systems and Database Systems.
+Prior to joining Berkeley, I received my B.E. from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), where I was advised by [Prof. Pinjia He](https://pinjiahe.github.io/). I also spent an unforgettable year as a research assistant at the [National University of Singapore](https://nus-test.github.io/) with [Prof. Manuel Rigger](https://www.manuelrigger.at/). I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for regionals.
 
-
-<details>
-<summary class="mentees-toggle"><strong>Mentees & Opportunities for undergraduate collaborations</strong></summary>
-
-I'm very fortunate to work with amazing undergraduate students learn from their passion and talent: 
-
-<div class="mentees-list">
-  <p><strong><a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a></strong> (2025 &ndash; Present)</p>
-</div>
-
-If you're an undergraduate student interested in research collaboration, please feel free to shoot me an <a href="mailto:qmang@berkeley.edu">email</a> with your background and your interest, e.g., <span class="requirement-item">resume</span>, <span class="requirement-item">transcript</span>, optional related exprience like previous research or competitive programming (ICPC, NOI, USACO, etc.) achievements.
-</details>
-
-<style>
-details {
-  margin: 1rem 0;
-}
-
-.mentees-toggle {
-  display: flex;
-  align-items: baseline;
-  gap: 0.55rem;
-  cursor: pointer;
-  user-select: none;
-  color: var(--global-text-color);
-  font-size: 1.25rem;
-  font-weight: 700;
-  padding: 0.5rem 0;
-  list-style: none;
-  transition: color 0.2s ease;
-  font-family: 'Merriweather', Georgia, serif;
-  line-height: 1.3;
-}
-
-.mentees-toggle:hover {
-  color: var(--global-hover-color);
-}
-
-.mentees-toggle::-webkit-details-marker {
-  display: none;
-}
-
-.mentees-toggle::before {
-  content: '';
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 0.72em;
-  height: 0.72em;
-  color: var(--global-theme-color);
-  background:
-    linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat,
-    linear-gradient(currentColor, currentColor) center / 2px 100% no-repeat;
-  transform: translateY(0.02em);
-  transition: background-size 0.2s ease, transform 0.2s ease;
-}
-
-details[open] .mentees-toggle::before {
-  background-size: 100% 2px, 0 0;
-  transform: translateY(0.02em);
-}
-
-.mentees-list {
-  margin-top: 0.5rem;
-}
-
-.mentees-list ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  margin: 0.5rem 0;
-}
-
-.mentees-list li {
-  margin: 0.5rem 0;
-  line-height: 1.6;
-}
-
-.mentees-list p {
-  margin: 0.5rem 0;
-  line-height: 1.6;
-}
-
-.mentees-list strong a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.mentees-list strong a:hover {
-  text-decoration: underline;
-}
-
-.requirement-item {
-  text-decoration: underline;
-  text-decoration-color: var(--global-theme-color);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
-  font-weight: 500;
-}
-
-.collaboration-info {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.collaboration-info p {
-  margin: 0.8rem 0;
-  line-height: 1.6;
-}
-
-.teaching-service {
-  margin-top: 1rem;
-}
-
-.teaching-service h4 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  color: var(--global-text-color);
-  padding-left: 0;
-}
-
-.teaching-service p {
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-  padding-left: 1.5rem;
-}
-
-.teaching-service ul {
-  padding-left: 1.2rem;
-}
-
-.teaching-service li {
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
-}
-
-/* Teaching & Service in sidebar */
-.teaching-service-sidebar {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.teaching-service-sidebar .mentees-toggle {
-  font-size: 1.1rem;
-}
-
-.teaching-service-sidebar .teaching-service h4 {
-  font-size: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.teaching-service-sidebar .teaching-service p {
-  margin-bottom: 0.6rem;
-  padding-left: 0;
-  font-size: 0.85rem;
-}
-
-/* Hide on mobile, show inline */
-@media (max-width: 768px) {
-  .teaching-service-sidebar {
-    display: none;
-  }
-  
-  #teaching-service-mobile {
-    display: block;
-  }
-}
-
-@media (min-width: 769px) {
-  #teaching-service-mobile {
-    display: none;
-  }
-}
-</style>
-
-
-<details markdown="1" id="teaching-service-mobile">
-<summary class="mentees-toggle"><strong>Teaching & Service</strong></summary>
-
-<div class="teaching-service" markdown="1">
-
-#### CUHK-Shenzhen
-
-**2025 Spring:** Teaching Assitant of CSC4001 Software Engineering
-
-**2024 Spring:** Teaching Assitant of CSC4001 Software Engineering  
-🏆 *2023-2024 Excellent USTF Award*
-
-**2021 &ndash; 2025:** Competitive Programming Coach
-
-#### Service
-
-**Artifact Evaluation Committee:** PLDI' 2024, SIGMOD' 25
-
-**Reviewer:** KDD' 2024 -- 2026, NeurIPS 2026
-
-**External Reviewer:** OSDI' 2023 Artifact Evaluation
-
-</div>
-
-</details>
-
-
-<div id="miscellaneous-section" markdown="1">
-
-### Miscellaneous
-
-- 忙秋阳 is my name in Chinese, which is pronounced like "Chew-yahng Mahng".
-- I was in the 46th ICPC World Finalist 🎈 and served as [problem setters](https://qoj.ac/user/profile/Joyemang) for regionals.
-- I enjoy basketball, cooking, and video games. I also have a beautiful ragdoll cat.
-
-I understand how deeply research success depends on access and opportunity, and I feel incredibly fortunate for the support and opportunities provided by Pinjia, Manuel, Alvin, and many others along the way. Many talented students never receive the opportunities they need to fully realize their potential. If you're from an underrepresented group and think it might help to talk or want to collaborate with me, feel free to reach out by [email](mailto:qmang@berkeley.edu).
-
-</div>
+<p class="mentee-section"><strong>Mentee:</strong> <a href="https://runyuanhe.github.io/" target="_blank">Runyuan He</a> <span>(2025 &ndash; Present)</span></p>
 
 <div class="about-featured-publications" markdown="1">
 

@@ -148,6 +148,7 @@ nav_order: 2
   .cooking-gallery {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
     grid-template-areas: none;
     column-gap: 0.5rem;
     row-gap: 0.5rem;

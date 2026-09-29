@@ -382,7 +382,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     <div>
       <h4><a href="https://arxiv.org/abs/2605.14445">FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale</a></h4>
       <p class="featured-paper-authors"><span class="mentee-first-author">Runyuan He</span>*, <strong>Qiuyang Mang*</strong>, Shang Zhou, Kaiyuan Liu, Hanchen Li, Huanzhi Mao, Qizheng Zhang, Zerui Li, Bo Peng, Lufeng Cheng, Tianfu Fu, Yichuan Wang, Wenhao Chai, Jingbo Shang, Alex Dimakis, Joseph E. Gonzalez, Alvin Cheung</p>
-      <p class="featured-paper-meta">NeurIPS 2026<span style="display: inline-block; margin-left: 0.35rem; color: #c0266d; white-space: nowrap;">Spotlight · 3.7%</span></p>
+      <p class="featured-paper-meta">NeurIPS 2026<span style="display: inline-block; margin-left: 0.35rem; color: #c0266d; white-space: nowrap;">Spotlight · 0.95%</span></p>
       <p class="featured-paper-desc">A system for synthesizing open-ended coding problems at scale, connecting data generation, validation, and agent evaluation.</p>
       <div class="featured-paper-links">
         <a href="https://arxiv.org/abs/2605.14445">paper</a>

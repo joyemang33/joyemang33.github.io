@@ -148,6 +148,11 @@ a.pub-title:hover {
   font-weight: 600;
 }
 
+.pub-author .mentee-first-author {
+  border-bottom: 1px dashed currentColor;
+  padding-bottom: 1px;
+}
+
 .pub-author .more-authors {
   color: var(--global-text-color-light);
   border-bottom: 1px dashed var(--global-text-color-light);

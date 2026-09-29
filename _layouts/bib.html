@@ -102,6 +102,9 @@
 
         <!-- Author -->
         <div class="pub-author">
+        {%- if entry.author_highlight -%}
+          {{ entry.author_prefix }}<strong>{{ entry.author_highlight }}</strong>{{ entry.author_suffix }}
+        {%- else -%}
         {%- assign author_array_size = entry.author_array | size -%}
         {%- assign author_array_limit = author_array_size -%}
         {%- assign author_tail_limit = 0 -%}
@@ -113,6 +116,11 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- assign author_full_name = author.first | append: " " | append: author_last_name -%}
+          {%- assign author_is_mentee_first = false -%}
+          {%- if entry.mentee_first_author contains author_full_name -%}
+            {%- assign author_is_mentee_first = true -%}
+          {%- endif -%}
           {%- if site.scholar.last_name contains author_last_name -%}
             {%- if site.scholar.first_name contains author.first -%}
               {%- assign author_is_self = true -%}
@@ -134,6 +142,15 @@
           {%- endif -%}
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
+          {%- elsif author_is_mentee_first -%}
+            {%- assign author_markers = author.last | remove: author_last_name -%}
+            <span class="mentee-first-author">
+            {%- if coauthor_url -%}
+              <a href="{{coauthor_url}}">{{author.first}} {{author_last_name}}</a>
+            {%- else -%}
+              {{author.first}} {{author_last_name}}
+            {%- endif -%}
+            </span>{{author_markers}}
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -176,6 +193,11 @@
             {%- for author in entry.author_array offset: tail_offset -%}
               {%- assign author_is_self = false -%}
               {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+              {%- assign author_full_name = author.first | append: " " | append: author_last_name -%}
+              {%- assign author_is_mentee_first = false -%}
+              {%- if entry.mentee_first_author contains author_full_name -%}
+                {%- assign author_is_mentee_first = true -%}
+              {%- endif -%}
               {%- if site.scholar.last_name contains author_last_name -%}
                 {%- if site.scholar.first_name contains author.first -%}
                   {%- assign author_is_self = true -%}
@@ -193,6 +215,15 @@
               ,&nbsp;{%- if forloop.last -%}and&nbsp;{%- endif -%}
               {%- if author_is_self -%}
                 <strong>{{author.first}} {{author.last}}</strong>
+              {%- elsif author_is_mentee_first -%}
+                {%- assign author_markers = author.last | remove: author_last_name -%}
+                <span class="mentee-first-author">
+                {%- if coauthor_url -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author_last_name}}</a>
+                {%- else -%}
+                  {{author.first}} {{author_last_name}}
+                {%- endif -%}
+                </span>{{author_markers}}
               {%- else -%}
                 {%- if coauthor_url -%}
                   <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -202,6 +233,7 @@
               {%- endif -%}
             {%- endfor -%}
           {%- endif -%}
+        {%- endif -%}
         {%- endif -%}
         </div>
 

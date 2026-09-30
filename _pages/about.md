@@ -359,7 +359,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 <div class="featured-paper-list">
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://easyppo.github.io/" aria-label="EasyPPO project webpage">
-      <img src="/assets/img/featured-publications/easyppo-teaser.webp" alt="EasyPPO critic stabilization methods">
+      <img src="/assets/img/featured-publications/easyppo-teaser.webp" alt="EasyPPO critic gradient norm versus group return standard deviation before and after noise normalization">
     </a>
     <div>
       <h4><a href="https://easyppo.github.io/">EasyPPO: Stabilizing the Critic Is Key</a></h4>

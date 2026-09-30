@@ -341,7 +341,7 @@ social: true # includes social icons at the bottom of the page
 Hi, I’m Qiuyang Mang, a second-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
 I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **Long-Horizon LLM Agents**: Understanding, developing, and improving LLM agents for complex, multi-step optimization across data synthesis, test-time scaling, post-training algorithms, and domain-specific applications. [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
+- **Long-Horizon LLM Agents**: Understanding, developing, and improving LLM agents for complex, multi-step optimization across data synthesis, test-time scaling, post-training algorithms, and domain-specific applications. [EasyPPO](https://easyppo.github.io/), [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
 
 - **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230), [PLOP](https://arxiv.org/abs/2604.09944)
 
@@ -357,6 +357,23 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 </div>
 
 <div class="featured-paper-list">
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://easyppo.github.io/" aria-label="EasyPPO project webpage">
+      <img src="/assets/img/featured-publications/easyppo-teaser.webp" alt="EasyPPO critic stabilization methods">
+    </a>
+    <div>
+      <h4><a href="https://easyppo.github.io/">EasyPPO: Stabilizing the Critic Is Key</a></h4>
+      <p class="featured-paper-authors"><span class="mentee-first-author">Xuanyi Zhou</span>*, <strong>Qiuyang Mang*</strong>, Huanzhi Mao*, Dacheng Li, Wenhao Chai, Mayank Mishra, Yichuan Wang, Karthik Narasimhan, Alvin Cheung, Joseph E. Gonzalez</p>
+      <p class="featured-paper-meta">Preprint 2026</p>
+      <p class="featured-paper-desc">A practical recipe for stabilizing PPO through critic learning, combining actor-only overlong filtering, noise-normalized critic regression, and smaller critic mini-batches.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2609.36802">paper</a>
+        <a href="https://github.com/EasyPPO/EasyPPO">code</a>
+        <a href="https://easyppo.github.io/">website</a>
+      </div>
+    </div>
+  </article>
+
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://agent-tts.github.io/agent-tts/" aria-label="Elo-per-token project webpage">
       <img src="/assets/img/featured-publications/elo-per-token-teaser.png" alt="Elo-per-token agent and human scaling results">

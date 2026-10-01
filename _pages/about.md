@@ -381,7 +381,7 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
     <div>
       <h4><a href="https://agent-tts.github.io/agent-tts/">When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis</a></h4>
       <p class="featured-paper-authors"><span class="mentee-first-author">Kaiyuan Liu</span>*, <strong>Qiuyang Mang*</strong>, Bo Peng, Wenhao Chai, Hanchen Li, Shreyas Pimpalgaonkar, Luke Zettlemoyer, Alex Dimakis, Alvin Cheung</p>
-      <p class="featured-paper-meta">Preprint 2026</p>
+      <p class="featured-paper-meta">NeurIPS 2026 Workshop Meta-Agents</p>
       <p class="featured-paper-desc">An analysis of how agents convert test-time tokens into progress, revealing where their gains fall below independent sampling while expert humans continue improving.</p>
       <div class="featured-paper-links">
         <a href="https://arxiv.org/abs/2609.15309">paper</a>

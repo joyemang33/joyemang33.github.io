@@ -148,6 +148,10 @@ a.pub-title:hover {
   font-weight: 600;
 }
 
+.pub-author .pub-last-author {
+  white-space: nowrap;
+}
+
 .pub-author .mentee-first-author {
   border-bottom: 1px dashed currentColor;
   padding-bottom: 1px;

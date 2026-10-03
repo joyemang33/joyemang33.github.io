@@ -114,6 +114,10 @@
         {%- endif -%}
 
         {%- for author in entry.author_array limit: author_array_limit -%}
+          {%- assign wrap_last_author = false -%}
+          {%- if forloop.length > 1 and forloop.last and author_array_limit == author_array_size -%}
+            {%- assign wrap_last_author = true -%}
+          {%- endif -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
           {%- assign author_full_name = author.first | append: " " | append: author_last_name -%}
@@ -137,8 +141,9 @@
           {%- endif -%}
 
           {%- if forloop.length > 1 -%}
-            {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+            {%- if forloop.first == false -%}
+              {%- if wrap_last_author -%},<wbr><span class="pub-last-author">&nbsp;and&nbsp;{%- else -%},&nbsp;{%- endif -%}
+            {%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
             <strong>{{author.first}} {{author.last}}</strong>
@@ -158,6 +163,7 @@
               {{author.first}} {{author.last}}
             {%- endif -%}
           {%- endif -%}
+          {%- if wrap_last_author -%}</span>{%- endif -%}
         {%- endfor -%}
         {%- assign visible_authors = author_array_limit | plus: author_tail_limit -%}
         {%- assign more_authors = author_array_size | minus: visible_authors -%}

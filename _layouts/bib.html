@@ -115,7 +115,7 @@
 
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign wrap_last_author = false -%}
-          {%- if forloop.length > 1 and forloop.last and author_array_limit == author_array_size -%}
+          {%- if entry.keep_last_author and forloop.length > 1 and forloop.last and author_array_limit == author_array_size -%}
             {%- assign wrap_last_author = true -%}
           {%- endif -%}
           {%- assign author_is_self = false -%}
@@ -142,7 +142,11 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%}
-              {%- if wrap_last_author -%},<wbr><span class="pub-last-author">&nbsp;and&nbsp;{%- else -%},&nbsp;{%- endif -%}
+              {%- if wrap_last_author -%}
+                ,<wbr><span class="pub-last-author">&nbsp;{%- unless entry.omit_last_and -%}and&nbsp;{%- endunless -%}
+              {%- else -%}
+                ,&nbsp;{%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+              {%- endif -%}
             {%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}

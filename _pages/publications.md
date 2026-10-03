@@ -149,6 +149,7 @@ a.pub-title:hover {
 }
 
 .pub-author .pub-last-author {
+  color: inherit;
   white-space: nowrap;
 }
 

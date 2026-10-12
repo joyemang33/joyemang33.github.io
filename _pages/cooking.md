@@ -30,9 +30,7 @@ nav_order: 2
     var(--short-row-height)
     repeat(2, var(--feature-row-height))
     var(--short-row-height)
-    repeat(2, var(--feature-row-height))
-    var(--short-row-height)
-    repeat(4, var(--feature-row-height));
+    repeat(8, var(--feature-row-height));
   grid-template-areas:
     "a  a  d  d"
     "a  a  d  d"
@@ -45,11 +43,12 @@ nav_order: 2
     "l  l  v  ab"
     "u  u  j  k"
     "u  u  j  k"
-    "q  q  z  z"
     "y  y  r  s"
     "y  y  r  s"
-    "t  w  x  aa"
-    "t  w  x  aa";
+    "t  w  ac ac"
+    "t  w  ac ac"
+    "x  aa q  q"
+    "x  aa z  z";
   gap: var(--gallery-gap);
 }
 
@@ -169,19 +168,17 @@ nav_order: 2
 
   .cooking-photo--mobile-wide {
     grid-area: auto / 1 / auto / -1 !important;
+    width: auto;
     height: auto;
+    justify-self: stretch;
     aspect-ratio: var(--mobile-wide-ratio, 4 / 3);
-  }
-
-  .cooking-photo--mobile-wide img,
-  .cooking-photo:last-child img {
-    width: calc(100% + 1px);
-    max-width: none;
   }
 
   .cooking-photo:last-child {
     grid-area: auto / 1 / auto / -1 !important;
+    width: auto;
     height: auto;
+    justify-self: stretch;
     aspect-ratio: 4 / 3;
   }
 
@@ -233,6 +230,9 @@ nav_order: 2
     <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: i; --crop-position: center 52%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/steak-dinner-for-two.jpg" aria-label="View steak dinner for two">
       <img src="/assets/img/cooking/steak-dinner-for-two.jpg" alt="Two steak dinners with spinach, carrots, and iced drinks" loading="eager">
     </button>
+    <button class="cooking-photo cooking-photo--feature cooking-photo--mobile-wide" type="button" style="grid-area: ac; --crop-position: center 58%; --mobile-wide-ratio: 4 / 3;" data-full="/assets/img/cooking/beef-fried-rice-and-chicken.jpg" aria-label="View beef fried rice with crispy chicken and iced drinks">
+      <img src="/assets/img/cooking/beef-fried-rice-and-chicken.jpg" alt="Beef fried rice with crispy chicken and iced drinks" loading="eager">
+    </button>
 
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: j; --crop-position: center 52%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/braised-ribs-and-greens.jpg" aria-label="View braised ribs and greens">
       <img src="/assets/img/cooking/braised-ribs-and-greens.jpg" alt="Braised ribs and greens in serving bowls" loading="eager">
@@ -277,11 +277,11 @@ nav_order: 2
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: w; --crop-position: center 58%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/dumpling-filling.jpg" aria-label="View homemade dumpling filling">
       <img src="/assets/img/cooking/dumpling-filling.jpg" alt="Mixing homemade dumpling filling" loading="eager">
     </button>
+    <button class="cooking-photo" type="button" style="grid-area: ab; --crop-position: center 50%; --mobile-ratio: 1;" data-full="/assets/img/cooking/dumplings.jpg" aria-label="View homemade dumplings">
+      <img src="/assets/img/cooking/dumplings.jpg" alt="Homemade dumplings on a red plate" loading="eager">
+    </button>
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: x; --crop-position: center 64%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/omelette.jpg" aria-label="View homemade omelette">
       <img src="/assets/img/cooking/omelette.jpg" alt="A homemade omelette" loading="eager">
-    </button>
-    <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: y; --crop-position: center 52%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/tomato-stew.jpg" aria-label="View tomato stew with rice and vegetables">
-      <img src="/assets/img/cooking/tomato-stew.jpg" alt="Tomato stew served with rice and vegetables" loading="eager">
     </button>
     <button class="cooking-photo cooking-photo--wide" type="button" style="grid-area: z; --crop-position: center 48%; --mobile-ratio: 1;" data-full="/assets/img/cooking/fried-rice.jpg" aria-label="View homemade fried rice">
       <img src="/assets/img/cooking/fried-rice.jpg" alt="Homemade fried rice on a red plate" loading="eager">
@@ -289,8 +289,8 @@ nav_order: 2
     <button class="cooking-photo cooking-photo--tall" type="button" style="grid-area: aa; --crop-position: center 68%; --mobile-ratio: 3 / 4;" data-full="/assets/img/cooking/pumpkin-in-pan.jpg" aria-label="View pumpkin cooking in a pan">
       <img src="/assets/img/cooking/pumpkin-in-pan.jpg" alt="Pumpkin cooking in a pan" loading="eager">
     </button>
-    <button class="cooking-photo" type="button" style="grid-area: ab; --crop-position: center 50%; --mobile-ratio: 1;" data-full="/assets/img/cooking/dumplings.jpg" aria-label="View homemade dumplings">
-      <img src="/assets/img/cooking/dumplings.jpg" alt="Homemade dumplings on a red plate" loading="eager">
+    <button class="cooking-photo cooking-photo--feature" type="button" style="grid-area: y; --crop-position: center 52%; --mobile-ratio: 4 / 3;" data-full="/assets/img/cooking/tomato-stew.jpg" aria-label="View tomato stew with rice and vegetables">
+      <img src="/assets/img/cooking/tomato-stew.jpg" alt="Tomato stew served with rice and vegetables" loading="eager">
     </button>
   </div>
 </div>

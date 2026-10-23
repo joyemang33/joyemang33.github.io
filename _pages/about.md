@@ -341,7 +341,7 @@ social: true # includes social icons at the bottom of the page
 Hi, I’m Qiuyang Mang, a second-year CS PhD student in the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at UC Berkeley, advised by [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/).
 I lead [FrontierCS](https://frontier-cs.org) and [FrontierSmith](https://arxiv.org/abs/2605.14445), a benchmark and data synthesis system for LLM-driven algorithm evolution on open-ended coding tasks. My research interests center on two themes:
 
-- **Long-Horizon LLM Agents**: Understanding, developing, and improving LLM agents for complex, multi-step optimization across data synthesis, test-time scaling, post-training algorithms, and domain-specific applications. [EasyPPO](https://easyppo.github.io/), [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
+- **Long-Horizon LLM Agents**: Understanding, developing, and improving LLM agents for complex, multi-step optimization across data synthesis, test-time scaling, post-training algorithms, and domain-specific applications. [FrontierCS 2](https://frontier-cs.org/), [EasyPPO](https://easyppo.github.io/), [Elo-per-token](https://agent-tts.github.io/agent-tts/), [FrontierCS](https://frontier-cs.org), [FrontierSmith](https://arxiv.org/abs/2605.14445), [Argus](https://arxiv.org/abs/2510.06663), [Combee](https://arxiv.org/abs/2604.04247), [SkyDiscover](https://github.com/skydiscover-ai/skydiscover)
 
 - **Machine Learning Systems**: Efficient algorithms for ML workloads, from data-processing to inference scheduling. [SVG-EAR](https://arxiv.org/abs/2603.08982), [Continuum](https://arxiv.org/abs/2511.02230), [PLOP](https://arxiv.org/abs/2604.09944)
 
@@ -357,6 +357,38 @@ Prior to joining Berkeley, I received my B.E. from [The Chinese University of Ho
 </div>
 
 <div class="featured-paper-list">
+  <article class="featured-paper">
+    <a class="featured-paper-visual" href="https://frontier-cs.org/" aria-label="FrontierCS 2 project webpage">
+      <img src="/assets/img/featured-publications/frontiercs2-fig1.webp" alt="FrontierCS 2 benchmark tasks across thirteen computer science domains">
+    </a>
+    <div>
+      <h4><a href="https://frontier-cs.org/">FrontierCS 2: A Benchmark for Computer Science R&amp;D</a></h4>
+      <p class="featured-paper-authors"><strong>Qiuyang Mang*</strong>, Wenhao Chai*, <span class="mentee-first-author">Runyuan He</span>*, Dongruixuan Li*, Zihan Zheng*, Yujun He*, Xuanyi Zhou, Hao Wang, and
+        <span class="more-authors" title="click to view 50 more authors"
+            onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var hiddenText = 'Siddhant Ray, Bo Peng, Ruyi Ji, Shuo Yang, Haocheng Xi, Boru Chen, Xinyang David Han, Melissa Pan, Mayank Mishra, Boxi Yu, Sijia Liu, Kerem Akillioglu, Yi Pan, Zirui Wang, Mert Cemri, Diogo Antunes, Yichuan Wang, Aiwei Ivy Zhang, Zhenyang Chen, Qizheng Zhang, Kaiyuan Liu, Wenyuan Huang, Sherry Ruan, Shu Liu, Dacheng Li, Zerui Cheng, Zeyu Shen, Shang Zhou, Hanfei Chen, Yuzhong Zhang, Bohan Lyu, Qu Ao, Han Zheng, Chonghe Jiang, Jingzhuo Hu, Xiaokun Chen, Kunjun Li, Zhiqing Zhong, Haoye Tian, Tong Zhao, Yunzhong He, Hanchen Li, Ofir Press, Jiantao Jiao, Kunle Olukotun, Karthik R. Narasimhan, Jingbo Shang, Koushik Sen, Matei Zaharia, Alex Dimakis';
+              var moreAuthorsText = element.text() == '50 more authors' ? hiddenText : '50 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function() {
+                element.text(moreAuthorsText.substring(0, cursorPosition + 1));
+                if (++cursorPosition == moreAuthorsText.length) {
+                  clearInterval(textAdder);
+                }
+              }, 10);
+            "
+        >50 more authors</span>, Ion Stoica, Joseph E. Gonzalez, Alvin Cheung</p>
+      <p class="featured-paper-meta">Preprint 2026</p>
+      <p class="featured-paper-desc">A benchmark that places agents inside real research repositories, asking them to rebuild deleted paper contributions and beat the original code on hidden workloads.</p>
+      <div class="featured-paper-links">
+        <a href="https://arxiv.org/abs/2610.29932">paper</a>
+        <a href="https://github.com/FrontierCS/FrontierCS-2">code</a>
+        <a href="https://frontier-cs.org/">website</a>
+      </div>
+    </div>
+  </article>
+
   <article class="featured-paper">
     <a class="featured-paper-visual" href="https://easyppo.github.io/" aria-label="EasyPPO project webpage">
       <img src="/assets/img/featured-publications/easyppo-teaser.webp" alt="EasyPPO critic gradient norm versus group return standard deviation before and after noise normalization">
